@@ -7,12 +7,14 @@
 ## 访问结构
 
 ```text
-http://服务器公网IP/                    主站
-http://服务器公网IP/sites/zhang-hong/   第一个作品集
-http://服务器公网IP/sites/客户名称/     后续展示站点
+http://134.195.211.122.sslip.io/              主站
+http://zhang-hong.134.195.211.122.sslip.io/   第一个作品集
+http://客户名称.134.195.211.122.sslip.io/     后续展示站点
 ```
 
-这里先用公网 IP。购买域名后将 A 记录指向服务器，并在 Nginx 配置域名与 HTTPS，原有客户路径保持一致。也可以为客户单独配置子域名。
+客户使用独立子域名。IP 本身不能直接加客户前缀，暂用 [sslip.io 公共 DNS](https://nip.io/) 将域名解析到服务器公网 IP。主站也可以通过 `http://134.195.211.122/` 访问。
+
+购买域名后将主域名与 `*` 的 A 记录指向服务器，在 Nginx 更新域名规则与 HTTPS，并把 `public/config.js` 的 `customerDomain` 改为你的主域名；客户地址变成 `客户名称.你的域名`。本地预览沿用 `/sites/客户名称/`，文件目录与公网子域名相互独立。
 
 ## 本地预览
 
@@ -61,7 +63,9 @@ curl -f http://127.0.0.1/healthz
 
 开放云平台安全组的 TCP 80 后，用公网 IP 访问。80 已被宝塔或 Nginx 使用时，先读部署文档，不要停掉已有网站。
 
-**宝塔或现有 Nginx：** 直接把 `public/` 内的内容部署到网站根目录，Node.js 不需要安装在服务器上。
+**当前 Ubuntu 22.04 服务器的原生 Nginx 部署：** 先确认 80 端口状态，再在服务器克隆到 `/opt/dongshan-web`，运行 `bash deploy/install-nginx-ubuntu.sh`。脚本配置主站与客户子域名，并先检查 Nginx 语法再重载。
+
+**宝塔或现有 Nginx：** 主站根目录对应 `public/`，每个客户子域名对应 `public/sites/客户名称/`。Node.js 不需要安装在服务器上。
 
 安装、端口检查、更新、回退、域名与 HTTPS：[服务器部署指南](docs/服务器部署.md)。
 

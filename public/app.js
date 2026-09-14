@@ -17,7 +17,11 @@
   };
   function card(site) {
     const article = make('article', 'site-card');
-    const href = `sites/${site.slug}/`;
+    const domain = window.SHOWCASE_CONFIG?.customerDomain;
+    const local = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname) || location.protocol === 'file:';
+    const href = !local && typeof domain === 'string' && /^[a-z0-9.-]+$/.test(domain)
+      ? `${location.protocol}//${site.slug}.${domain}${location.port ? `:${location.port}` : ''}/`
+      : `sites/${site.slug}/`;
     const cover = make('a', 'card-cover');
     cover.href = href;
     cover.setAttribute('aria-label', `进入${site.name}`);
