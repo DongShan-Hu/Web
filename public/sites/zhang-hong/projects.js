@@ -1,0 +1,136 @@
+window.ARCHIVE_PROJECTS = [
+  {
+    id: 'tiangang', title: '画江湖之天罡', subtitle: '动画电影 / 北京若森', year: '2023', category: 'ANIMATED FEATURE',
+    cover: 'assets/tiangang-17.webp', gallery: ['assets/tiangang-17.webp', 'assets/tiangang-16.webp', 'assets/tiangang-22.webp', 'assets/tiangang-25.webp', 'assets/tiangang-26.webp'],
+    video: 'media/tiangang.mp4', tools: 'UE / Nuke',
+    focus: '骨骼跟随灯光、竹林人工阴影；在大场景通道限制下完成镜头布光。',
+    role: '在若森参与动画电影《画江湖之天罡》的角色与场景灯光制作，根据场次氛围和导演、视效总监反馈进行镜头调整。',
+    pipeline: 'UE 灯光与序列渲染，Nuke 输出。处理背光场景、灯光绑定骨骼跟随角色，以及人工阴影。',
+    credit: '图片来自个人旧作品目录。附带视频为该电影的宣传 PV，展示项目整体效果，不代表个人负责全部镜头。',
+  },
+  {
+    id: 'susanoo', title: '阴阳师 · 须佐之男', subtitle: '角色宣传 CG / 北京吾立方', year: '2022', category: 'STYLIZED CHARACTER CG',
+    cover: 'assets/susanoo-10.webp', gallery: ['assets/susanoo-10.webp', 'assets/susanoo-08.webp', 'assets/susanoo-02.webp', 'assets/susanoo-05.webp', 'assets/susanoo-09.webp'],
+    video: 'media/susanoo.mp4', tools: 'Maya / Arnold / Nuke',
+    focus: 'AiToon 分层渲染；Mask Alpha 调整阴影，结合 Roto 与 UV 修绘。',
+    role: '在吾立方参与三渲二角色宣传 CG 制作，负责 Maya 灯光、分层渲染与 Nuke 合成中的阴影调整。',
+    pipeline: 'Maya / Arnold。分出 Color、Mask、Rim、Matte 等层，在 Nuke 中利用 Mask 的 Alpha 通道调整阴影，结合 Roto 跟踪与 UV 修绘进行处理。',
+    credit: '图片来自个人旧作品目录。视频为项目宣传 CG，保留原有署名与画面，展示项目整体效果。',
+  },
+  {
+    id: 'seven', title: '七大罪', subtitle: '怨嗟的爱丁堡 后篇 / 北京吾立方', year: '2022 制作经历', category: 'STYLIZED CG',
+    cover: 'assets/seven-06.webp', gallery: ['assets/seven-06.webp', 'assets/seven-07.webp', 'assets/seven-01.webp'],
+    video: 'media/seven.mp4', tools: 'Maya / Arnold / Nuke',
+    focus: '按不同角色的阴影色建立 Mask，配合跟踪与修绘完成局部合成。',
+    role: '在吾立方参与《七大罪》三渲二 CG 项目，进行 Maya / Arnold 灯光渲染及 Nuke 分层合成。',
+    pipeline: '根据角色阴影色进行 Mask 分离和合成，结合 Roto 跟踪与 UV 修绘处理镜头，输出序列并完成下游交付。',
+    credit: '2022 为参与制作时间。图片与宣传视频为项目资料，视频展示团队成果，不代表个人独立完成。',
+  },
+  {
+    id: 'jincan', title: '金蚕往事', subtitle: '动画剧集 / 有狐文化', year: '2024', category: 'HYBRID RENDERING',
+    cover: 'assets/jincan-poster.jpg', gallery: ['assets/jincan-poster.jpg'],
+    video: 'media/jincan.mp4', tools: 'UE + Maya / Arnold / Nuke',
+    focus: 'UE 场景与 Arnold 角色分别布光；检查 ID、Depth 后进入 Nuke 整合。',
+    role: '在有狐文化参与《金蚕往事》，进行角色与场景灯光制作及 Nuke 合成。',
+    pipeline: 'UE 渲染场景，Maya / Arnold 渲染角色，Nuke 完成合成。处理场景与角色光色关系，配置 UE 序列输出中的 ID、Depth 等合成所需信息。',
+    credit: '此封面截取自原作品目录内的公开宣传 PV，用于项目介绍。视频展示整体效果，具体个人镜头另行列示。',
+  },
+  {
+    id: 'fox', title: '给我来个小狐狸', subtitle: '动画剧集 / 有狐文化', year: '2023–2024', category: 'CHARACTER & ENVIRONMENT',
+    cover: 'assets/fox-10.webp', gallery: ['assets/fox-10.webp', 'assets/fox-19.webp', 'assets/fox-16.webp', 'assets/fox-17.webp', 'assets/fox-02.webp'],
+    video: 'media/fox.mp4', tools: 'UE + Maya / Arnold / Nuke',
+    focus: '角色与毛发灯光、灯组通道组织；处理背景遮挡、空气雾与整体光色。',
+    role: '在有狐文化参与角色灯光与渲染合成，处理角色、毛发和场景的光影关系。',
+    pipeline: 'UE 场景与 Maya / Arnold 角色渲染，在 Nuke 中组合灯光与材质通道。利用 Dome、Key、Fill、Rim 及 Specular、SSS 等信息整合最终画面。',
+    credit: '图片来自个人旧作品目录。完整视频为项目宣传资料，用于展示团队整体效果。',
+  },
+  {
+    id: 'xixing', title: '西行纪', subtitle: '动画剧集 / 早期项目', year: '2023', category: 'OFFLINE RENDERING',
+    cover: 'assets/xixing-02.webp', gallery: ['assets/xixing-02.webp', 'assets/xixing-01.webp', 'assets/xixing-03.webp'],
+    tools: 'Maya / Redshift / Nuke',
+    focus: 'Redshift 灯光渲染与 AOV 输出，Nuke 分层合成及场次校色。',
+    role: '参与《西行纪》项目，进行三维动画灯光渲染与 Nuke 后期合成。',
+    pipeline: 'Maya / Redshift 灯光与渲染设置，AOV 分层输出，Nuke 合成与场次校色。',
+    credit: '图片来自个人旧作品目录，展示当时参与项目的镜头成果。',
+  },
+];
+
+window.ARCHIVE_CASE_DETAILS = {
+  tiangang: [
+    { title: '项目背景与画面要求', text: '动画电影的纯 UE 灯光制作。对照场次氛围图为角色和场景布光，由导演或视效总监审片；部分反馈直接在 UE 工程内现场调整。' },
+    { title: '实际难点 / 大场景中的灯光控制', text: '原项目工程较大，灯光通道并非总能单独分配给指定物体或角色。角色运动时仍需要保持所需的灯光关系；竹林等场景需要额外建立明暗与空间层次。' },
+    { title: '个人处理 / 不是单纯加亮', items: ['在背光场次中进行角色与场景灯光制作，依据氛围图和导演反馈调整画面。', '将灯光绑定至角色骨骼，使灯光随指定骨骼运动，满足镜头中的跟随需求。', '在竹林场景布光后制作人工阴影，补充场景所需的层次关系。'] },
+    { title: '交付与反馈', text: '本机渲染 UE 序列，在 Nuke 中输出 MOV 提交服务器审片；根据导演或视效总监意见返回 UE 修改。' },
+    { title: '体现的能力', text: '在既定工程限制下调整灯光控制方式，将场次氛围要求落实到镜头，并衔接渲染、合成与审核。具体灯组参数及对应镜头时间码仍需补充。' },
+  ],
+  susanoo: [
+    { title: '项目背景与画面要求', text: '在吾立方参与《阴阳师》须佐之男角色宣传 CG，使用 Maya / Arnold 三渲二流程与 AiToon 材质；不是 UE 项目。' },
+    { title: '实际难点 / 阴影需要后期可控', text: '该项目在 Nuke 中使用 Mask 的 Alpha 通道调整阴影。部分镜头还需要 Roto 跟踪，特殊情况下需导出 UV 并修绘；只合并渲染层不能完成全部镜头处理。' },
+    { title: '个人处理 / 分层与修绘配合', items: ['在 Maya 中完成角色布光及 Color、Mask、Rim、Matte 等层的渲染组织。', '在 Nuke 中按项目合成工程叠加各层，利用 Mask 的 Alpha 通道调整阴影。', '对需要局部处理的镜头进行 Roto 跟踪，特殊情况导出 UV 并修绘，再参与后续合成。'] },
+    { title: '交付', text: '输出 MOV 提交服务器审核，渲染 PNG 序列交给下游。' },
+    { title: '体现的能力', text: '理解三渲二灯光与合成之间的控制分工，能够处理阴影遮罩和局部修绘，而不只依赖渲染器的一次性结果。' },
+  ],
+  seven: [
+    { title: '项目背景', text: '在吾立方参与《七大罪 怨嗟的爱丁堡 后篇》三渲二 CG 制作，使用 Maya / Arnold 渲染与 Nuke 合成。2022.11 为旧简历记录的制作时间。' },
+    { title: '实际难点 / 不同角色的阴影色', text: '与须佐之男项目依靠 Mask 的 Alpha 调整不同，本项目在 Nuke 中通过吸取不同角色的阴影色制作 Mask。个别镜头需要 Roto 跟踪与 UV 修绘结合。' },
+    { title: '个人处理 / 按项目改变遮罩逻辑', items: ['进行 Maya / Arnold 灯光及分层渲染，进入项目约定的 Nuke 合成流程。', '从不同角色的阴影色中进行颜色选择，建立用于后续合成的 Mask。', '结合 Roto 跟踪和导出 UV 修绘处理个别镜头，不直接套用另一项目的 Alpha 遮罩逻辑。'] },
+    { title: '交付与能力', text: '输出 MOV 审片与 PNG 下游序列。该项目体现的是对不同三渲二合成约定的适应，以及颜色选择、跟踪与修绘的组合使用。' },
+  ],
+  fox: [
+    { title: '项目背景与风格', text: '动画剧集，整体为清新、轻松的角色画风。制作资料覆盖 2023 年不同阶段；当前履历按有狐文化项目经历展示。UE 场景与 Maya / Arnold 角色在 Nuke 中整合。' },
+    { title: '实际难点 / 光照、遮挡与毛发', text: '角色与 UE 背景来自不同渲染环节，需要处理交互遮挡和远景空气雾。角色灯光命名影响 Nuke 中的分层控制，制作中还需要留意小狐狸的局部“秃毛”问题。' },
+    { title: '个人处理 / 从渲染为合成保留控制', items: ['在 Maya 中进行角色灯光制作，注意灯光命名，便于后续在 Nuke 中对应与控制。', '以 Dome 为基础，结合 Key、Fill、Rim 与 SSS、Specular 等层整合角色画面。', '在 Nuke 中处理角色与场景的交互遮挡、远景空气雾和整体色调；关注毛发异常对画面的影响。'] },
+    { title: '参与阶段与镜头补充', text: '2023.06 阶段负责角色灯光及在 Nuke 中处理已有 UE 背景；2023.12 阶段进入有狐的角色分层流程。毛发异常的具体诊断与修复步骤待补充。' },
+    { title: '体现的能力', text: '兼顾角色质感、后期可控性和背景空间关系，理解跨渲染流程中灯光与合成的衔接。' },
+  ],
+  jincan: [
+    { title: '项目背景', text: '在有狐文化参与动画剧集《金蚕往事》，使用 UE 制作渲染背景，Maya / Arnold 制作渲染角色，Nuke 合成。旧简历记录的项目制作时间为 2024.04。' },
+    { title: '制作重点 / 两套渲染结果的衔接', text: '角色与场景分别进行场次氛围布光，最后需要在同一画面中成立。除光色关系外，还要提前准备合成所需的 UE ID、Depth 信息，避免只关注 Beauty 画面。这是项目中的输出检查重点。' },
+    { title: '个人处理', items: ['分别进行 Maya 角色灯光与 UE 场景氛围灯光制作，再在 Nuke 中合成。', '检查 UE 序列输出设置，启用项目需要的 ID 输出并添加 Depth 材质。', '参与本地场景渲染与角色 Renderbus 农场流程，管理序列帧并进行镜头合成。'] },
+    { title: '体现的能力', text: '能将角色灯光、场景氛围与合成数据需求放在同一制作链路中考虑，具备混合渲染剧集的流程实践。' },
+  ],
+  xixing: [
+    { title: '项目背景', text: '2023.05 参与的三维动画剧集项目，使用 Maya / Redshift 灯光渲染与 Nuke 后期合成，作为早期离线渲染经历展示。' },
+    { title: '流程重点 / 从渲染设置到场次合成', text: '从 Arnold 三渲二转入 Redshift 三维流程，需要配置渲染设置和 AOV 分层，并依据场次氛围在 Nuke 中完成校色与镜头处理。' },
+    { title: '个人工作', items: ['使用 Maya / Redshift 进行灯光渲染，设置所需的渲染参数和 AOV 分层。', '在 Nuke 中进行分层合成、场次校色及镜头问题处理。', '按照项目审核流程输出 MOV 并提交服务器。'] },
+    { title: '展示重点', text: 'Redshift 离线渲染与 Nuke 的衔接实践，作为跨渲染流程的经验补充。具体镜头参数与问题处理记录待补充。' },
+  ],
+};
+
+window.PRODUCTION_STUDIES = {
+  tiangang: {
+    title: '大场景下的灯光控制',
+    label: '若森 / 动画电影 / 2023',
+    caption: '《画江湖之天罡》/ 动画电影',
+    flow: ['UE 灯光', '序列渲染', 'Nuke', '导演 / 视效审片'],
+    blocks: [
+      { title: '制作限制', text: '工程体量较大，通道并非总能单独分配给特定物体或角色；运动中的角色灯光与竹林场景层次，需要针对镜头处理。' },
+      { title: '具体操作', items: ['对照场次氛围图制作背光等画面，按导演、视效反馈调整。', '灯光绑定角色骨骼，满足随角色运动的灯光需求。', '竹林场景在布光后补充人工阴影，建立所需层次。'] },
+      { title: '交付环节', text: '本机 UE 序列 → Nuke 输出 MOV → 提交审片与反馈修改。灯光、输出和审核是同一镜头制作的连续环节。' },
+    ],
+  },
+  susanoo: {
+    title: '两种阴影 Mask，两套处理逻辑',
+    label: '吾立方 / 三渲二 CG / 2022',
+    companion: 'seven',
+    caption: '《须佐之男》/ Arnold 三渲二 CG',
+    flow: ['Maya / AiToon', '分层渲染', 'Mask / Roto / UV', 'Nuke'],
+    blocks: [
+      { title: '项目差异', text: '须佐之男在 Nuke 中利用 Mask 的 Alpha 调整阴影；七大罪则按不同角色的阴影色进行颜色选择，建立 Mask。' },
+      { title: '具体操作', items: ['规划 Color、Mask、Rim、Matte 等层，保留后期调整空间。', '按项目约定使用 Alpha 遮罩或阴影色选择，而非直接复制另一项目做法。', '需要局部处理时结合 Roto 跟踪、导出 UV 与修绘；七大罪部分镜头同时使用两者。'] },
+      { title: '交付环节', text: 'MOV 审片与 PNG 下游序列。体现的是分层设计、阴影控制和局部修整之间的衔接。' },
+    ],
+  },
+  fox: {
+    title: 'UE 场景与 Arnold 角色的整合',
+    label: '有狐文化 / 动画剧集 / 2023—2024',
+    companion: 'jincan',
+    caption: '《给我来个小狐狸》/ 角色与场景整合',
+    flow: ['UE 场景', 'Arnold 角色', '通道 / 遮挡', 'Nuke 整合'],
+    blocks: [
+      { title: '制作关注', text: '角色与 UE 背景之间的交互遮挡、远处空气雾及光色衔接；小狐狸还需要留意毛发异常，金蚕往事则强调 UE 合成信息的准备。' },
+      { title: '具体操作', items: ['小狐狸：规范灯光命名，按 Dome、Key、Fill、Rim 及 SSS、Specular 等信息进行角色合成。', '在 Nuke 中处理已有背景、角色遮挡与空气透视。', '金蚕往事：同时制作 UE 场景与 Maya 角色灯光，检查 ID 输出并添加 Depth 材质。'] },
+      { title: '参与范围', text: '小狐狸早期阶段处理角色灯光及已有 UE 背景的后期；金蚕往事阶段同时进行 UE 场景与 Maya 角色灯光。毛发问题的具体修复方案待补充。' },
+    ],
+  },
+};

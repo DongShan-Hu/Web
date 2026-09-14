@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="东山展示：公司介绍、个人简历、作品集与工程项目的独立展示网站。">
+  <meta name="theme-color" content="#121b29">
+  <title>东山展示 · 每一份作品，都有自己的空间</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#showcases">跳转到展示站点</a>
+  <header class="header shell">
+    <a class="brand" href="./" aria-label="东山展示首页"><span class="brand-symbol" aria-hidden="true">DS</span><span>东山展示<small>DONGSHAN / WEB</small></span></a>
+    <a class="header-link" href="#showcases">浏览展示站点 <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <section class="intro shell" aria-labelledby="intro-title">
+      <div class="intro-top"><p class="eyebrow">INDEPENDENT WEBSITES / 独立展示空间</p><span class="edition">COLLECTION 01</span></div>
+      <h1 id="intro-title">把值得展示的内容，<br>做成一个<span>网站。</span></h1>
+      <div class="intro-bottom"><p>公司介绍、个人简历、创作作品与工程项目。<br>每个站点独立呈现，分享一个地址，就能完整了解。</p><a href="#showcases" class="browse">查看站点 <span aria-hidden="true">↓</span></a></div>
+      <div class="type-strip" aria-label="支持的展示类型"><span>01 <strong>公司介绍</strong></span><span>02 <strong>个人简历</strong></span><span>03 <strong>作品集</strong></span><span>04 <strong>工程展示</strong></span></div>
+    </section>
+    <section class="collection" id="showcases" aria-labelledby="collection-title">
+      <div class="shell">
+        <div class="collection-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="collection-title">展示站点 <span id="total-count" class="count"></span></h2></div><p class="collection-note">点击进入，查看完整网站。</p></div>
+        <div class="toolbar"><div class="filters" role="group" aria-label="按展示类型筛选"><button type="button" data-category="all" aria-pressed="true">全部</button><button type="button" data-category="company" aria-pressed="false">公司介绍</button><button type="button" data-category="resume" aria-pressed="false">个人简历</button><button type="button" data-category="portfolio" aria-pressed="false">作品集</button><button type="button" data-category="engineering" aria-pressed="false">工程展示</button></div><label class="search"><span class="visually-hidden">搜索名称、介绍或标签</span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10" cy="10" r="6"></circle><path d="m15 15 5 5"></path></svg><input type="search" id="search" placeholder="搜索站点" autocomplete="off"></label></div>
+        <p class="visually-hidden" id="result-status" role="status" aria-live="polite"></p>
+        <div class="site-grid" id="site-grid" aria-busy="true"></div>
+        <div class="state" id="state"><p id="state-message" role="status">正在加载展示站点…</p><button type="button" id="reset" hidden>显示全部站点</button><button type="button" id="retry" hidden>重新加载</button></div>
+        <noscript><p>请启用 JavaScript 浏览站点目录，或<a href="sites/zhang-hong/">直接查看张红的灯光作品集</a>。</p></noscript>
+      </div>
+    </section>
+  </main>
+  <footer class="footer shell"><div class="footer-brand">东山展示<span>公司 · 个人 · 作品 · 工程</span></div><a href="https://github.com/DongShan-Hu/Web" target="_blank" rel="noopener noreferrer">GitHub 项目 <span aria-hidden="true">↗</span></a></footer>
+</body>
+</html>

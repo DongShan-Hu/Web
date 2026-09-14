@@ -1,0 +1,6 @@
+*
+!public/
+!public/**
+!deploy/
+!deploy/nginx.conf
+!Dockerfile
