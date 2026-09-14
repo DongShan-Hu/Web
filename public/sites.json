@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "slug": "zhang-hong",
+    "name": "张红 · 灯光与合成简历 / 作品集",
+    "category": "resume",
+    "summary": "张红的求职简历与作品展示，包含工作经历、专业能力、项目图集、宣传视频和可下载的 PDF 简历。",
+    "cover": "sites/zhang-hong/assets/wuwa-hiyuki.webp",
+    "coverAlt": "鸣潮绯雪官方 PV 封面，张红参与项目展示",
+    "tags": ["UE 灯光", "Nuke 合成", "求职简历"],
+    "updated": "2026-09-14",
+    "listed": true
+  }
+]
