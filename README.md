@@ -46,7 +46,7 @@ npm run site:add -- --slug acme --name "客户公司" --type company --summary "
 
 `listed: false` 仅隐藏目录卡片，不提供访问保护。尚未公开的内容请保留在本地，不上传服务器。
 
-已有网站也可直接复制到 `public/sites/客户名称/` 并在 `sites.json` 登记。页面内部使用相对资源路径；React/Vue 构建产物应按客户路径配置 `base`。详见 [客户站点维护](docs/客户站点维护.md)。
+已有网站也可直接复制到 `public/sites/客户名称/` 并在 `sites.json` 登记。页面内部建议使用相对资源路径，兼容本地目录预览和公网子域名。详见 [客户站点维护](docs/客户站点维护.md)。
 
 ## 部署
 

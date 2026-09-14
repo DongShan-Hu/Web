@@ -1,13 +1,13 @@
 import { createServer } from 'node:http';
 import { createReadStream } from 'node:fs';
 import { readFile, realpath, stat } from 'node:fs/promises';
-import { resolve, relative, sep, extname } from 'node:path';
+import { resolve, relative, sep, extname, isAbsolute } from 'node:path';
 import { publicRoot } from './check.mjs';
 
 const port = Number(process.env.PORT || 4173);
 const root = await realpath(publicRoot);
 const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'application/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8', '.webp': 'image/webp', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.svg': 'image/svg+xml', '.mp4': 'video/mp4', '.pdf': 'application/pdf', '.ico': 'image/x-icon' };
-function within(target) { const rel = relative(root, target); return rel !== '..' && !rel.startsWith(`..${sep}`) && !resolve(target).startsWith('\\\\'); }
+function within(target) { const rel = relative(root, target); return rel !== '..' && !rel.startsWith(`..${sep}`) && !isAbsolute(rel); }
 const server = createServer(async (req, res) => {
   res.setHeader('X-Content-Type-Options', 'nosniff');
   res.setHeader('Cache-Control', 'no-cache');

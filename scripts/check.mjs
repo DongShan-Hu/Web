@@ -1,5 +1,5 @@
 import { readdir, readFile, stat, lstat, realpath } from 'node:fs/promises';
-import { resolve, relative, dirname, extname, sep } from 'node:path';
+import { resolve, relative, dirname, extname, sep, isAbsolute } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 
@@ -17,7 +17,7 @@ export async function walk(dir) {
 }
 function inside(root, target) {
   const rel = relative(root, target);
-  return rel !== '..' && !rel.startsWith(`..${sep}`) && !resolve(target).startsWith('\\\\');
+  return rel !== '..' && !rel.startsWith(`..${sep}`) && !isAbsolute(rel);
 }
 async function checkReference(from, raw) {
   if (!raw || /^(?:https?:|data:|mailto:|tel:|javascript:|#|\/\/)/i.test(raw) || /[{}$]/.test(raw)) return;
