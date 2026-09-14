@@ -1,0 +1,39 @@
+name: Check website
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate and build static files
+        run: |
+          bash -n deploy/install-nginx-ubuntu.sh
+          npm run build
+      - name: Build production image
+        run: |
+          npm run site:add -- --slug ci-company --name "CI company" --type company
+          head -c 2048 /dev/zero > public/sites/ci-company/range.bin
+          docker build -t dongshan-web-check .
+      - name: Verify production Nginx
+        shell: bash
+        run: |
+          docker run -d --name web-check -p 127.0.0.1:8080:80 dongshan-web-check
+          for attempt in {1..20}; do
+            if curl -fsS http://127.0.0.1:8080/healthz; then break; fi
+            sleep 1
+          done
+          curl -fsS http://127.0.0.1:8080/ > /dev/null
+          curl -fsS -H 'Host: ci-company.134.195.211.122.sslip.io' http://127.0.0.1:8080/ | grep -q '<title>CI company'
+          test "$(curl -s -o /dev/null -w '%{http_code}' -H 'Host: ci-company.134.195.211.122.sslip.io' --range 0-1023 http://127.0.0.1:8080/range.bin)" = 206
+          test "$(curl -s -o /dev/null -w '%{http_code}' -H 'Host: unknown.134.195.211.122.sslip.io' http://127.0.0.1:8080/)" = 404
+          test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8080/not-found)" = 404
+      - name: Container logs
+        if: failure()
+        run: docker logs web-check || true

@@ -1,0 +1,13 @@
+{
+  "name": "dongshan-web-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "自有服务器上的多客户静态展示站集合",
+  "scripts": {
+    "dev": "node scripts/preview.mjs",
+    "check": "node scripts/check.mjs",
+    "build": "node scripts/build.mjs",
+    "site:add": "node scripts/add-site.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

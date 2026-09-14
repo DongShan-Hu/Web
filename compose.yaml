@@ -1,0 +1,12 @@
+name: dongshan-web
+services:
+  web:
+    build: .
+    ports:
+      - "${WEB_BIND_IP:-0.0.0.0}:${WEB_PORT:-80}:80"
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
