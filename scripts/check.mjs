@@ -36,7 +36,7 @@ export async function check() {
   const slugs = new Set();
   const categories = new Set(['company', 'resume', 'portfolio', 'engineering']);
   for (const site of sites) {
-    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(site.slug) || slugs.has(site.slug)) throw new Error('站点 slug 非法或重复');
+    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(site.slug) || site.slug === 'www' || slugs.has(site.slug)) throw new Error('站点 slug 非法、保留或重复');
     slugs.add(site.slug);
     if (!categories.has(site.category) || typeof site.name !== 'string' || !site.name.trim() || typeof site.summary !== 'string' || !Array.isArray(site.tags) || !site.tags.every(tag => typeof tag === 'string') || typeof site.listed !== 'boolean') throw new Error(`${site.slug} 的目录信息不完整`);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(site.updated) || Number.isNaN(Date.parse(site.updated)) || new Date(site.updated).toISOString().slice(0, 10) !== site.updated) throw new Error(`${site.slug} 的更新日期非法`);

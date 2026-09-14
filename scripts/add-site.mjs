@@ -10,6 +10,7 @@ for (let index = 2; index < process.argv.length; index += 2) {
   args[key.slice(2)] = value;
 }
 if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(args.slug || '')) throw new Error('--slug 只允许小写字母、数字和中间的短横线');
+if (args.slug === 'www') throw new Error('www 保留给主站，请选择其他客户名称');
 if (!args.name?.trim() || !['company', 'resume', 'engineering'].includes(args.type)) throw new Error('请提供 --name，并选择 --type company、resume 或 engineering');
 const target = resolve(publicRoot, 'sites', args.slug);
 const manifestPath = resolve(publicRoot, 'sites.json');
