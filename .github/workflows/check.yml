@@ -17,10 +17,7 @@ jobs:
           bash -n deploy/install-nginx-ubuntu.sh
           npm run build
       - name: Build production image
-        run: |
-          npm run site:add -- --slug ci-company --name "CI company" --type company
-          head -c 2048 /dev/zero > public/sites/ci-company/range.bin
-          docker build -t dongshan-web-check .
+        run: docker build -t dongshan-web-check .
       - name: Verify production Nginx
         shell: bash
         run: |
@@ -30,9 +27,11 @@ jobs:
             sleep 1
           done
           curl -fsS http://127.0.0.1:8080/ > /dev/null
-          curl -fsS -H 'Host: ci-company.134.195.211.122.sslip.io' http://127.0.0.1:8080/ | grep -q '<title>CI company'
-          test "$(curl -s -o /dev/null -w '%{http_code}' -H 'Host: ci-company.134.195.211.122.sslip.io' --range 0-1023 http://127.0.0.1:8080/range.bin)" = 206
+          curl -fsS http://127.0.0.1:8080/sites/zhang-hong/ > /dev/null
+          curl -fsS -H 'Host: zhang-hong.134.195.211.122.sslip.io' http://127.0.0.1:8080/ > /dev/null
+          test "$(curl -s -o /dev/null -w '%{http_code}' -H 'Host: zhang-hong.134.195.211.122.sslip.io' --range 0-1023 http://127.0.0.1:8080/media/tiangang.mp4)" = 206
           test "$(curl -s -o /dev/null -w '%{http_code}' -H 'Host: unknown.134.195.211.122.sslip.io' http://127.0.0.1:8080/)" = 404
+          test "$(curl -s -o /dev/null -w '%{http_code}' --range 0-1023 http://127.0.0.1:8080/sites/zhang-hong/media/tiangang.mp4)" = 206
           test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8080/not-found)" = 404
       - name: Container logs
         if: failure()

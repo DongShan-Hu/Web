@@ -22,7 +22,6 @@ const summary = args.summary || ({ company: '公司介绍与业务展示', resum
 const source = await readFile(resolve(projectRoot, 'templates', args.type, 'index.html'), 'utf8');
 const css = await readFile(resolve(projectRoot, 'templates', 'styles.css'), 'utf8');
 const html = source.replaceAll('{{name}}', escape(args.name)).replaceAll('{{summary}}', escape(summary));
-await mkdir(resolve(publicRoot, 'sites'), { recursive: true });
 await mkdir(target, { recursive: false });
 await writeFile(resolve(target, 'index.html'), html);
 await writeFile(resolve(target, 'styles.css'), css);

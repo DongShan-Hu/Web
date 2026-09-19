@@ -2,14 +2,13 @@
 
 在自己的服务器上托管多个客户的展示网站：公司介绍、个人简历、作品集与工程项目。主站提供分类与搜索，每个客户使用独立目录；网站内容由你制作并通过 Git 更新。
 
-当前版本已收录张红的求职简历与作品网站，包含项目图集、宣传视频、文字简历与 PDF 下载；也包含主站、三个起步模板、站点维护脚本和 Nginx 子域名配置。原始素材与历史压缩包不收录到此仓库。
+当前收录 **张红的灯光与合成作品集**，保留图集、视频、网页简历与一页 PDF。原始 PPT、大型源素材与历史压缩包不收录到此仓库。
 
 ## 访问结构
 
 ```text
 http://134.195.211.122.sslip.io/              主站
-http://zhang-hong.134.195.211.122.sslip.io/   张红简历与作品集
-http://zhang-hong.134.195.211.122.sslip.io/resume.html  张红文字简历
+http://zhang-hong.134.195.211.122.sslip.io/   第一个作品集
 http://客户名称.134.195.211.122.sslip.io/     后续展示站点
 ```
 
@@ -64,7 +63,7 @@ curl -f http://127.0.0.1/healthz
 
 开放云平台安全组的 TCP 80 后，用公网 IP 访问。80 已被宝塔或 Nginx 使用时，先读部署文档，不要停掉已有网站。
 
-**当前 Ubuntu 22.04 服务器的原生 Nginx 部署：** 在服务器克隆到 `/home/dongshan/workspace/Web`，运行 `bash deploy/install-nginx-ubuntu.sh`。脚本自动使用实际目录，配置主站与张红的子域名，并先检查 Nginx 语法再重载。完整命令见部署指南。
+**当前 Ubuntu 22.04 服务器的原生 Nginx 部署：** 先确认 80 端口状态，再在服务器克隆到 `/opt/dongshan-web`，运行 `bash deploy/install-nginx-ubuntu.sh`。脚本配置主站与客户子域名，并先检查 Nginx 语法再重载。
 
 **宝塔或现有 Nginx：** 主站根目录对应 `public/`，每个客户子域名对应 `public/sites/客户名称/`。Node.js 不需要安装在服务器上。
 
@@ -76,7 +75,7 @@ curl -f http://127.0.0.1/healthz
 public/                  唯一对外发布的网站根目录
   index.html             主站
   sites.json             客户站点目录
-  sites/客户名称/        添加客户后生成，各站点资源独立
+  sites/zhang-hong/       已有作品集，资源路径保持不变
 templates/               三类待编辑的起步模板，不直接发布
 scripts/                 本地预览、检查、构建与添加站点
 deploy/nginx.conf        Docker 内的 Nginx 配置
