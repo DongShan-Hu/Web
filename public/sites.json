@@ -9,5 +9,16 @@
     "tags": ["UE 灯光", "Nuke 合成", "角色 CG"],
     "updated": "2026-09-14",
     "listed": true
+  },
+  {
+    "slug": "hu-haiyan",
+    "name": "胡海燕 · 书法与美育作品集",
+    "category": "portfolio",
+    "summary": "齐鲁理工学院书法专业本科生，展示书法、国画、个人印章、教学实践与专业荣誉。",
+    "cover": "sites/hu-haiyan/assets/hero-bird-fruit.webp",
+    "coverAlt": "胡海燕花鸟设色作品，果树枝头立着一只小鸟",
+    "tags": ["书法教育", "国画", "公共美育"],
+    "updated": "2026-09-20",
+    "listed": false
   }
 ]
