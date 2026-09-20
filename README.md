@@ -67,7 +67,7 @@ curl -f http://127.0.0.1/healthz
 
 **宝塔或现有 Nginx：** 主站根目录对应 `public/`，每个客户子域名对应 `public/sites/客户名称/`。Node.js 不需要安装在服务器上。
 
-安装、端口检查、更新、回退、域名与 HTTPS：[服务器部署指南](docs/服务器部署.md)。
+安装、端口检查、域名与 HTTPS：[服务器部署指南](docs/服务器部署.md)。当前云服务器从 GitHub 拉取代码、验证和回退的准确命令见 [GitHub 同步与云服务器更新](docs/GitHub同步更新云服务器.md)。
 
 ## 目录
 
