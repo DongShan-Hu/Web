@@ -8,7 +8,7 @@
 
 - 用户确认的首页参考：`C:/Users/ADMINI~1/AppData/Local/Temp/codex-clipboard-b8770a21-d155-43e9-9cf9-a8ec5c613186.png`。
 - 正文方向参考：`C:/Users/Administrator/.codex/generated_images/01a093e8-a69b-7ba2-924a-314961873832/exec-b85b20d4-30f3-446e-8269-a85ca8326071.png`，1122×1402。
-- 同一首页的既有桌面截图：`G:/手绘素材/张红 灯光-灯光合成/.portfolio-build/hero.png`，1440×1040。
+- 同一首页的既有桌面截图：本地项目归档中的 `hero.png`，1440×1040。
 - 实现地址：`http://127.0.0.1:8784/`，Codex 内置浏览器实际加载验证。
 
 ## 截图与比较

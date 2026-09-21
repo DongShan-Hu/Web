@@ -166,7 +166,7 @@
       const active = () => opened && !disposed && token === generation && lab.isConnected;
       message.hidden = false;
       retry.hidden = true;
-      status.textContent = '正在打开张红的真实作品集，图片和交互将随页面一起加载。';
+      status.textContent = '正在打开游戏灯光师 Z 女士的真实作品集，图片和交互将随页面一起加载。';
       stage.dataset.state = 'loading';
       stage.setAttribute('aria-busy', 'true');
 
@@ -181,7 +181,7 @@
 
       const next = document.createElement('iframe');
       next.className = 'preview-live-frame';
-      next.title = '张红作品集：可调整屏幕宽度的实时预览';
+      next.title = '游戏灯光师 Z 女士作品集：可调整屏幕宽度的实时预览';
       next.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-downloads');
       next.setAttribute('referrerpolicy', 'same-origin');
       next.addEventListener('load', () => {

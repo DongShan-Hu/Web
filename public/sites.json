@@ -1,11 +1,11 @@
 [
   {
     "slug": "zhang-hong",
-    "name": "张红 · 灯光与合成作品集",
+    "name": "游戏灯光师 Z 女士 · 灯光与合成作品集",
     "category": "portfolio",
     "summary": "UE 灯光、Nuke 合成与风格化影像。包含角色宣传 CG、动画电影及剧集的制作经历、作品图集与个人简历。",
     "cover": "sites/zhang-hong/assets/wuwa-hiyuki.webp",
-    "coverAlt": "鸣潮绯雪官方 PV 封面，张红参与项目展示",
+    "coverAlt": "鸣潮绯雪官方 PV 封面，游戏灯光师 Z 女士参与项目展示",
     "tags": ["UE 灯光", "Nuke 合成", "角色 CG"],
     "updated": "2026-09-14",
     "listed": true
