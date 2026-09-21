@@ -19,8 +19,11 @@ Nginx 直接读取仓库内的 `public/`。因此拉取代码后静态文件会�
 
 线上地址：
 
-- 主站：<http://134.195.211.122.sslip.io/>
-- 张红作品集：<http://zhang-hong.134.195.211.122.sslip.io/>
+- 主站：<https://www.yiyeying.com/>（<https://yiyeying.com/> 同样可访问）
+- 张红作品集：<https://zhanghong.yiyeying.com/>
+- 胡海燕作品集：<https://huhaiyan.yiyeying.com/>
+
+域名统一在 `deploy/domain.env` 配置（当前 `PRIMARY_DOMAIN="yiyeying.com"`，HTTPS 由 Cloudflare 代理提供）。
 
 ## 日常更新流程
 
@@ -67,11 +70,11 @@ git rev-parse --short HEAD
 nginx -t
 systemctl reload nginx
 
-curl -fsS -H 'Host: 134.195.211.122.sslip.io' \
+curl -fsS -H "Host: $(. deploy/domain.env && echo $PRIMARY_DOMAIN)" \
   http://127.0.0.1/healthz
 
-curl -I http://134.195.211.122.sslip.io/
-curl -I http://zhang-hong.134.195.211.122.sslip.io/
+curl -I "http://$(. deploy/domain.env && echo $PRIMARY_DOMAIN)/"
+curl -I "http://zhang-hong.$(. deploy/domain.env && echo $PRIMARY_DOMAIN)/"
 ```
 
 预期结果：
