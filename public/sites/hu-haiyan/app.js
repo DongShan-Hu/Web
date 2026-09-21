@@ -73,7 +73,7 @@ function positionFilterIndicator() {
   filterIndicator.style.width = selected.offsetWidth + 'px';
   filterIndicator.style.transform = 'translateX(' + selected.offsetLeft + 'px)';
 }
-filterButtons.forEach((button) => button.addEventListener('click', () => {
+function selectFilter(button) {
   if (button.classList.contains('is-active')) return;
   works.forEach((work) => work.getAnimations().forEach((animation) => animation.cancel()));
   const previous = new Map(works.filter((work) => !work.hidden).map((work) => [work, work.getBoundingClientRect()]));
@@ -96,7 +96,14 @@ filterButtons.forEach((button) => button.addEventListener('click', () => {
       { opacity: 1, transform: 'translate(0,0)' }
     ], 420, before ? 0 : Math.min(index * 35, 105));
   });
-}));
+}
+filterButtons.forEach((button) => button.addEventListener('click', () => selectFilter(button)));
+document.querySelectorAll('[data-select-filter]').forEach((link) => {
+  link.addEventListener('click', () => {
+    const button = filterButtons.find((item) => item.dataset.filter === link.dataset.selectFilter);
+    if (button) selectFilter(button);
+  });
+});
 new ResizeObserver(positionFilterIndicator).observe(document.querySelector('.filters'));
 document.fonts.ready.then(positionFilterIndicator);
 positionFilterIndicator();
@@ -105,6 +112,12 @@ const lightbox = document.querySelector('[data-lightbox]');
 const lightboxImage = document.querySelector('[data-lightbox-image]');
 const lightboxCaption = document.querySelector('[data-lightbox-caption]');
 const lightboxDetail = document.querySelector('[data-lightbox-detail]');
+const lightboxNote = document.querySelector('[data-lightbox-note]');
+const lightboxReading = document.querySelector('[data-lightbox-reading]');
+const lightboxBody = document.querySelector('.lightbox-body');
+const lightboxPoints = document.querySelector('[data-lightbox-points]');
+const lightboxTip = document.querySelector('[data-lightbox-tip]');
+const lightboxAnnouncement = document.querySelector('[data-lightbox-announcement]');
 const lightboxCount = document.querySelector('[data-lightbox-count]');
 const lightboxStatus = document.querySelector('[data-lightbox-status]');
 const lightboxStage = document.querySelector('[data-lightbox-stage]');
@@ -151,7 +164,25 @@ async function showImage(index, direction = 0) {
   resetZoom();
   lightboxCaption.textContent = item.dataset.caption || '图片';
   lightboxDetail.textContent = item.dataset.detail || '';
+  const notes = artworkNotes.get(item.dataset.image);
+  lightbox.classList.toggle('has-notes', Boolean(notes));
+  lightboxReading.hidden = !notes;
+  lightboxReading.scrollTop = 0;
+  lightboxBody.scrollTop = 0;
+  lightboxPoints.replaceChildren();
+  lightboxNote.textContent = notes?.summary || '';
+  lightboxTip.textContent = notes?.tip || '';
+  notes?.points.forEach((point) => {
+    const group = document.createElement('div');
+    const title = document.createElement('dt');
+    const text = document.createElement('dd');
+    title.textContent = point.title;
+    text.textContent = point.text;
+    group.append(title, text);
+    lightboxPoints.append(group);
+  });
   lightboxCount.textContent = (galleryIndex + 1) + ' / ' + gallery.length;
+  lightboxAnnouncement.textContent = lightboxCaption.textContent + '，第 ' + (galleryIndex + 1) + ' 件，共 ' + gallery.length + ' 件';
   previousButton.hidden = nextButton.hidden = gallery.length < 2;
   zoomButton.disabled = true;
   lightboxImage.hidden = true;
@@ -176,18 +207,18 @@ async function showImage(index, direction = 0) {
     lightboxStatus.textContent = '图片未能加载，请关闭后重试。';
   }
 }
-function openLightbox(trigger) {
+function openLightbox(trigger, target = trigger) {
   lightboxTrigger = trigger;
   closing = false;
-  const group = trigger.dataset.gallery;
+  const group = target.dataset.gallery;
   const candidates = group
     ? [...document.querySelectorAll('[data-gallery="' + group + '"][data-image]')].filter((item) => !item.hidden)
-    : [trigger];
+    : [target];
   const unique = new Map(candidates.map((item) => [item.dataset.image, item]));
   gallery = [...unique.values()];
   document.body.classList.add('is-locked');
   lightbox.showModal();
-  showImage(Math.max(0, gallery.findIndex((item) => item.dataset.image === trigger.dataset.image)));
+  showImage(Math.max(0, gallery.findIndex((item) => item.dataset.image === target.dataset.image)));
   animate(lightbox, [{ opacity: 0, transform: 'translateY(12px) scale(.988)' }, { opacity: 1, transform: 'translateY(0) scale(1)' }], 320);
   closeButton.focus({ preventScroll: true });
 }
@@ -200,6 +231,14 @@ async function closeLightbox() {
   closing = false;
 }
 document.querySelectorAll('[data-image]').forEach((trigger) => trigger.addEventListener('click', () => openLightbox(trigger)));
+document.querySelectorAll('[data-open-work]').forEach((trigger) => {
+  trigger.addEventListener('click', () => {
+    const work = works.find((item) => item.dataset.image === trigger.dataset.openWork);
+    if (!work) return;
+    if (work.hidden) selectFilter(filterButtons.find((button) => button.dataset.filter === 'all'));
+    openLightbox(trigger, work);
+  });
+});
 closeButton.addEventListener('click', closeLightbox);
 lightbox.addEventListener('cancel', (event) => { event.preventDefault(); closeLightbox(); });
 lightbox.addEventListener('click', (event) => {

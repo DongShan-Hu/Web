@@ -25,7 +25,7 @@ def repertoire(site):
     result.update(range(0x2000, 0x2070))
     result.update(range(0x3000, 0x3040))
     result.update(map(ord, "零〇一二三四五六七八九十百千万亿壹贰叁肆伍陆柒捌玖拾佰仟萬億两兩廿卅（）［］｛｝，。；：？！％／－＋＝"))
-    for name in ("index.html", "app.js"):
+    for name in ("index.html", "app.js", "artwork-notes.js"):
         text = (site / name).read_text(encoding="utf-8")
         result.update(map(ord, html.unescape(text)))
         result.update(int(value, 16) for value in re.findall(r"\\u([0-9a-fA-F]{4})", text))
