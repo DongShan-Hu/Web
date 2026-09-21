@@ -274,7 +274,7 @@ function homeTemplate() {
           </div>
         </div>
         <section class="responsive-lab" data-responsive-lab aria-label="真实网站的多屏体验"><div class="responsive-intro"><div><span class="case-kicker">从设计稿，到可以使用的网站</span><h3>换一块屏幕，细节依然成立。</h3><p>亲手调整页面宽度，看内容如何重新排列。</p></div><button class="responsive-launch" type="button" data-preview-launch aria-expanded="false">亲手试试不同屏幕 <span aria-hidden="true">↔</span></button></div><div class="responsive-workbench" data-preview-workbench hidden></div></section>
-        <p class="source-note">网页设计与实现：码页集。页面内影视、游戏作品为客户项目经历，版权与具体职责见原案例。</p>
+        <p class="source-note">网页设计与实现：一页映。页面内影视、游戏作品为客户项目经历，版权与具体职责见原案例。</p>
       </section>
 
       <section class="section shell craft-section" id="details">
@@ -299,7 +299,7 @@ function homeTemplate() {
         <a class="service-design" href="#/plans?focus=display"><div class="service-option-copy"><span class="service-tag">资料已经备好</span><h3>直接<span class="service-title-accent">做网站。</span></h3><p>简历与作品已经定稿？<br>把视觉设计、前端制作和手机适配交给我们。</p><strong class="service-cta">查看网页制作方案 <span aria-hidden="true">↗</span></strong></div><div class="service-option-art"><img src="assets/zhang-hong-site-preview.png" alt="网页设计交付实例：张红作品集" loading="lazy"><small>实际交付页面</small></div></a>
         <a class="service-content" href="#/plans?focus=optimize"><div class="service-option-copy"><span class="service-tag">经历还需要整理</span><h3>先<span class="service-title-accent">梳理内容。</span></h3><p>不知道该突出哪段经历？<br>先找准重点，再决定用怎样的页面呈现。</p><strong class="service-cta">查看内容梳理方案 <span aria-hidden="true">↗</span></strong></div><div class="service-content-topics"><span>目标岗位</span><span>代表项目</span><span>个人贡献</span><p>把零散经历，整理成有重点的职业叙事。</p></div></a>
       </div></section>
-      <section class="studio-final shell"><div><p class="eyebrow">下一个页面 / YOURS, NEXT</p><h2>留一个位置，<br>给<span class="editorial-serif">你的作品。</span></h2><p>带上已有的简历或作品，我们从这里开始。</p><a class="button" href="#/intake">开始你的页面 <span aria-hidden="true">↗</span></a></div><span class="final-colophon" aria-hidden="true">内容 · 设计 · 制作<br>码页集</span></section>
+      <section class="studio-final shell"><div><p class="eyebrow">下一个页面 / YOURS, NEXT</p><h2>留一个位置，<br>给<span class="editorial-serif">你的作品。</span></h2><p>带上已有的简历或作品，我们从这里开始。</p><a class="button" href="#/intake">开始你的页面 <span aria-hidden="true">↗</span></a></div><span class="final-colophon" aria-hidden="true">内容 · 设计 · 制作<br>一页映</span></section>
     </div>`;
 }
 
@@ -630,7 +630,7 @@ function publishedTemplate() {
 }
 
 function notFoundTemplate() {
-  return `<section class="empty-page shell"><span>404</span><h1>这个页面还没有准备好</h1><p>返回主页继续了解码页集的服务方式。</p><a class="button" href="#/home">返回主页</a></section>`;
+  return `<section class="empty-page shell"><span>404</span><h1>这个页面还没有准备好</h1><p>返回主页继续了解一页映的服务方式。</p><a class="button" href="#/home">返回主页</a></section>`;
 }
 
 function render() {
