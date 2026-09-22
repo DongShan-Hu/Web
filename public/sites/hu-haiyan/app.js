@@ -212,7 +212,7 @@ function openLightbox(trigger, target = trigger) {
   closing = false;
   const group = target.dataset.gallery;
   const candidates = group
-    ? [...document.querySelectorAll('[data-gallery="' + group + '"][data-image]')].filter((item) => !item.hidden)
+    ? [...document.querySelectorAll('[data-gallery="' + group + '"][data-image]')].filter((item) => trigger.dataset.galleryScope === 'all' || !item.hidden)
     : [target];
   const unique = new Map(candidates.map((item) => [item.dataset.image, item]));
   gallery = [...unique.values()];
@@ -235,7 +235,7 @@ document.querySelectorAll('[data-open-work]').forEach((trigger) => {
   trigger.addEventListener('click', () => {
     const work = works.find((item) => item.dataset.image === trigger.dataset.openWork);
     if (!work) return;
-    if (work.hidden) selectFilter(filterButtons.find((button) => button.dataset.filter === 'all'));
+    if (work.hidden && trigger.dataset.galleryScope !== 'all') selectFilter(filterButtons.find((button) => button.dataset.filter === 'all'));
     openLightbox(trigger, work);
   });
 });
