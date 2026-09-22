@@ -244,9 +244,9 @@ function homeTemplate() {
           <div class="studio-scene">
             <a class="studio-desktop" href="sites/zhang-hong/" aria-label="打开游戏灯光师 Z 女士作品集实际网站">
               <div class="device-toolbar"><span>Z 女士 / 游戏灯光与合成作品集</span><span aria-hidden="true">↗</span></div>
-              <img src="assets/zhang-hong-site-preview.png" alt="已交付的游戏灯光师 Z 女士作品集桌面端首页" width="1440" height="1000" fetchpriority="high">
+              <img src="assets/z-lady-site-preview-v2.png" alt="已交付的游戏灯光师 Z 女士作品集桌面端首页" width="1440" height="1000" fetchpriority="high">
             </a>
-            <a class="studio-phone" href="sites/zhang-hong/" aria-label="打开游戏灯光师 Z 女士作品集"><img src="assets/zhang-hong-mobile-preview.png" alt="同一作品集的真实移动端页面" width="390" height="844"></a>
+            <a class="studio-phone" href="sites/zhang-hong/" aria-label="打开游戏灯光师 Z 女士作品集"><img src="assets/z-lady-mobile-preview-v2.png" alt="同一作品集的真实移动端页面" width="390" height="844"></a>
           </div>
         </div>
         <div class="scene-caption shell"><span>实际交付页面展示</span><p>游戏灯光师 Z 女士 · 灯光与合成作品集</p><a href="sites/zhang-hong/">打开完整网站 ↗</a></div>
@@ -269,7 +269,7 @@ function homeTemplate() {
             <button id="view-tab-mobile" role="tab" aria-selected="false" aria-controls="craft-panel" data-showcase-view="mobile" tabindex="-1" type="button">移动体验</button>
           </div>
           <div class="craft-body" id="craft-panel" role="tabpanel" aria-labelledby="view-tab-desktop">
-            <div class="craft-screen"><img id="craft-image" src="assets/zhang-hong-site-preview.png" width="1440" height="1000" alt="游戏灯光师 Z 女士作品集首屏实际截图" loading="lazy"></div>
+            <div class="craft-screen"><img id="craft-image" src="assets/z-lady-site-preview-v2.png" width="1440" height="1000" alt="游戏灯光师 Z 女士作品集首屏实际截图" loading="lazy"></div>
             <div class="craft-description"><span>呈现重点</span><h4 id="craft-title">先让作品，<br>建立第一印象。</h4><p id="craft-copy">用代表作建立页面气质，再交代专业方向与个人职责。画面有分量，信息也有先后。</p><div class="craft-detail-list" id="craft-details"><span>沉浸式作品首屏</span><span>清晰的专业定位</span><span>可直接进入项目详情</span></div><a class="inline-action" href="sites/zhang-hong/">亲自体验 ↗</a></div>
           </div>
         </div>
@@ -287,7 +287,7 @@ function homeTemplate() {
 
       <section class="section shell studio-process" id="process">
         <div class="studio-section-heading"><p class="eyebrow">03 / 一起完成</p><h2>三个阶段，<br>一起做好。</h2><p>从已有的材料开始。内容、设计与交付，每个阶段都先给你看，再往下做。</p></div>
-        <figure class="process-preview"><div class="process-preview-label"><span>交付视角</span><span id="process-preview-count">01 / 03</span></div><div class="process-preview-image"><img id="process-preview-image" src="assets/zhang-hong-work-preview.png" alt="游戏灯光师 Z 女士作品集中的项目编排实例" loading="lazy"></div><figcaption><span id="process-preview-title">找到经历中的重点</span><small>已交付案例 · Z 女士作品集</small></figcaption></figure>
+        <figure class="process-preview"><div class="process-preview-label"><span>交付视角</span><span id="process-preview-count">01 / 03</span></div><div class="process-preview-image"><img id="process-preview-image" src="assets/z-lady-work-preview-v2.png" alt="游戏灯光师 Z 女士作品集中的项目编排实例" loading="lazy"></div><figcaption><span id="process-preview-title">找到经历中的重点</span><small>已交付案例 · Z 女士作品集</small></figcaption></figure>
         <div class="process-accordion">
           <article class="process-step is-open" data-process="0"><h3><button class="process-trigger" id="process-trigger-0" aria-expanded="true" aria-controls="process-body-0" type="button"><span class="process-stage"><span>01</span>内容梳理</span><span class="process-title">找到值得展开的经历</span><span class="details-symbol" aria-hidden="true">−</span></button></h3><div class="process-body" id="process-body-0" role="region" aria-labelledby="process-trigger-0"><div class="process-body-clip"><div class="process-body-content"><p>结合目标岗位，确认代表项目、你的职责与可公开材料。需要专业判断时，再确定 HR 或行业审核范围。</p><div class="process-deliverable"><small>这一阶段，你会拿到</small><div class="process-outcomes"><span>内容提纲</span><span>素材清单</span></div></div></div></div></div></article>
           <article class="process-step" data-process="1"><h3><button class="process-trigger" id="process-trigger-1" aria-expanded="false" aria-controls="process-body-1" type="button"><span class="process-stage"><span>02</span>视觉设计</span><span class="process-title">让你的特点被看见</span><span class="details-symbol" aria-hidden="true">+</span></button></h3><div class="process-body" id="process-body-1" role="region" aria-labelledby="process-trigger-1" aria-hidden="true" inert><div class="process-body-clip"><div class="process-body-content"><p>从版式、字体到色彩与动效，先一起确认视觉方向，再完成桌面与移动端制作。</p><div class="process-deliverable"><small>这一阶段，你会拿到</small><div class="process-outcomes"><span>视觉方案</span><span>可操作的网页预览</span></div></div></div></div></div></article>
@@ -296,7 +296,7 @@ function homeTemplate() {
       </section>
 
       <section class="section shell service-decision"><div class="decision-heading"><p class="eyebrow">04 / 合作的起点</p><h2>你准备到哪一步了？</h2><p>按实际需要，选择这次合作的范围。</p></div><div class="service-options">
-        <a class="service-design" href="#/plans?focus=display"><div class="service-option-copy"><span class="service-tag">资料已经备好</span><h3>直接<span class="service-title-accent">做网站。</span></h3><p>简历与作品已经定稿？<br>把视觉设计、前端制作和手机适配交给我们。</p><strong class="service-cta">查看网页制作方案 <span aria-hidden="true">↗</span></strong></div><div class="service-option-art"><img src="assets/zhang-hong-site-preview.png" alt="网页设计交付实例：游戏灯光师 Z 女士作品集" loading="lazy"><small>实际交付页面</small></div></a>
+        <a class="service-design" href="#/plans?focus=display"><div class="service-option-copy"><span class="service-tag">资料已经备好</span><h3>直接<span class="service-title-accent">做网站。</span></h3><p>简历与作品已经定稿？<br>把视觉设计、前端制作和手机适配交给我们。</p><strong class="service-cta">查看网页制作方案 <span aria-hidden="true">↗</span></strong></div><div class="service-option-art"><img src="assets/z-lady-site-preview-v2.png" alt="网页设计交付实例：游戏灯光师 Z 女士作品集" loading="lazy"><small>实际交付页面</small></div></a>
         <a class="service-content" href="#/plans?focus=optimize"><div class="service-option-copy"><span class="service-tag">经历还需要整理</span><h3>先<span class="service-title-accent">梳理内容。</span></h3><p>不知道该突出哪段经历？<br>先找准重点，再决定用怎样的页面呈现。</p><strong class="service-cta">查看内容梳理方案 <span aria-hidden="true">↗</span></strong></div><div class="service-content-topics"><span>目标岗位</span><span>代表项目</span><span>个人贡献</span><p>把零散经历，整理成有重点的职业叙事。</p></div></a>
       </div></section>
       <section class="studio-final shell"><div><p class="eyebrow">下一个页面 / YOURS, NEXT</p><h2>留一个位置，<br>给<span class="editorial-serif">你的作品。</span></h2><p>带上已有的简历或作品，我们从这里开始。</p><a class="button" href="#/intake">开始你的页面 <span aria-hidden="true">↗</span></a></div><span class="final-colophon" aria-hidden="true">内容 · 设计 · 制作<br>一页映</span></section>
@@ -317,9 +317,9 @@ function bindShowcase() {
   let requestId = 0;
   let disposed = false;
   const views = {
-    desktop: {src:'assets/zhang-hong-site-preview.png',alt:'游戏灯光师 Z 女士作品集首屏实际截图',title:'先让作品，<br>建立第一印象。',copy:'用代表作建立页面气质，再交代专业方向与个人职责。画面有分量，信息也有先后。',details:['沉浸式作品首屏','清晰的专业定位','可直接进入项目详情']},
-    works: {src:'assets/zhang-hong-work-preview.png',alt:'游戏灯光师 Z 女士作品集作品编排实际截图',title:'不只放图片，<br>也交代你做过什么。',copy:'按项目组织图像、视频与制作说明，把团队作品与个人参与的边界讲清楚。',details:['代表项目优先呈现','图集与视频按需展开','职责说明与内容对应']},
-    mobile: {src:'assets/zhang-hong-mobile-preview.png',alt:'游戏灯光师 Z 女士作品集手机端实际截图',title:'换一块屏幕，<br>体验仍然完整。',copy:'重新安排窄屏上的阅读顺序、触控区域和画面比例，不是把电脑页面简单缩小。',details:['适配手机的内容布局','触控友好的浏览入口','重要信息优先可见']}
+    desktop: {src:'assets/z-lady-site-preview-v2.png',alt:'游戏灯光师 Z 女士作品集首屏实际截图',title:'先让作品，<br>建立第一印象。',copy:'用代表作建立页面气质，再交代专业方向与个人职责。画面有分量，信息也有先后。',details:['沉浸式作品首屏','清晰的专业定位','可直接进入项目详情']},
+    works: {src:'assets/z-lady-work-preview-v2.png',alt:'游戏灯光师 Z 女士作品集作品编排实际截图',title:'不只放图片，<br>也交代你做过什么。',copy:'按项目组织图像、视频与制作说明，把团队作品与个人参与的边界讲清楚。',details:['代表项目优先呈现','图集与视频按需展开','职责说明与内容对应']},
+    mobile: {src:'assets/z-lady-mobile-preview-v2.png',alt:'游戏灯光师 Z 女士作品集手机端实际截图',title:'换一块屏幕，<br>体验仍然完整。',copy:'重新安排窄屏上的阅读顺序、触控区域和画面比例，不是把电脑页面简单缩小。',details:['适配手机的内容布局','触控友好的浏览入口','重要信息优先可见']}
   };
   function cancelAnimations() {
     animations.forEach(animation => animation.cancel());
@@ -720,9 +720,9 @@ function bindPage(route) {
 
 function bindProcess() {
   const views = [
-    ['assets/zhang-hong-work-preview.png', '找到经历中的重点', 'Z 女士作品集中的项目编排实例'],
-    ['assets/zhang-hong-site-preview.png', '让内容有自己的视觉表达', 'Z 女士作品集桌面端实际交付页面'],
-    ['assets/zhang-hong-mobile-preview.png', '每一种屏幕，都认真适配', 'Z 女士作品集手机端实际交付页面']
+    ['assets/z-lady-work-preview-v2.png', '找到经历中的重点', 'Z 女士作品集中的项目编排实例'],
+    ['assets/z-lady-site-preview-v2.png', '让内容有自己的视觉表达', 'Z 女士作品集桌面端实际交付页面'],
+    ['assets/z-lady-mobile-preview-v2.png', '每一种屏幕，都认真适配', 'Z 女士作品集手机端实际交付页面']
   ];
   const preview = app.querySelector('.process-preview');
   const steps = [...app.querySelectorAll('[data-process]')];
