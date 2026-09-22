@@ -1,0 +1,20 @@
+01 · 封面：images/01-cover.png
+把简历做成自己的线上画廊
+
+02 · 电脑端：images/02-desktop.png
+你的风格，打开就能看见
+
+03 · 作品展厅：images/03-gallery.png
+让每一件作品都有自己的位置
+
+04 · 手机端：images/04-mobile.png
+手机打开，也是完整的画面
+
+05 · 大图浏览：images/05-viewer.png
+喜欢哪一幅，点开慢慢看
+
+06 · 定制邀请：images/06-inquiry.png
+下一份个人网站，可以是你的
+
+推荐标题：把简历做成自己的线上画廊
+

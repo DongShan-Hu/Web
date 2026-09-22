@@ -1,0 +1,80 @@
+{
+  "created": "2026-09-22",
+  "tool": "built-in image_gen",
+  "output_size": "1086x1448",
+  "author_name_display": "胡海燕（用户明确授权保留实名）",
+  "source_site": "public/sites/hu-haiyan/index.html",
+  "content_verification": {
+    "education": "齐鲁理工学院 · 书法专业本科",
+    "graduation": "2027 年 6 月",
+    "qualification": "高中教师资格证 · 已取得",
+    "practice": [
+      "2025.03 - 至今：少儿硬笔启蒙家教",
+      "2025.09 - 至今：小学语文与规范书写辅导"
+    ],
+    "evidence": "以上均从本地真实网页文本及 actual-education.png / actual-practice.png 截图取证，未新增客户经历"
+  },
+  "outputs": [
+    {
+      "file": "images/01-cover.png",
+      "status": "remade",
+      "source_output": "C:/Users/Administrator/.codex/generated_images/01a0c892-26ab-7631-8c15-8f4896096c16/exec-8d92d22a-e718-4500-91fc-11cbf4a09d60.png",
+      "references": [
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-hu-haiyan/images/01-cover.png",
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-hu-haiyan/references/desktop-hero.png",
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-hu-haiyan/references/mobile-hero.png"
+      ],
+      "prompt": "Use case: text-localization / ads-marketing. Edit the first reference image, a Chinese Xiaohongshu marketing cover for 一页映. Output one vertical 3:4 image, exactly 1086×1448 pixels if supported. Preserve its ivory paper, ink black Song type, cinnabar accent, premium editorial character, same laptop and phone size/positions, authentic art and website screenshots. Reference 2 is authentic desktop content, reference 3 authentic mobile content; keep their rendered content accurate, including 胡海燕. Change only outer headline and subtitle as follows, with balanced hierarchy and generous breathing room. Brand at top:「一页映 · 个人网站定制」. Large headline two lines EXACT:「给自己的作品」「做一间线上画廊」. Subtitle EXACT:「作品和经历，放进一个可分享的网址」. Remove the old title 把简历做成自己的线上画廊 and old outer subtitle 胡海燕·书法与美育作品集. Remove the decorative tiny poem on upper right to leave clean space. Name 胡海燕 remains clearly visible inside genuine site. Below devices keep「电脑与手机，都有自己的好看」. Footer keep exactly「网页设计与制作：一页映」「书画素材由本人提供」 and page「01 / 06」. Every Chinese glyph correct. No added claims, no invented awards or text. Preserve underlying artwork exactly, no extra leaves, birds or alternative art. Complete uncropped composition."
+    },
+    {
+      "file": "images/02-desktop.png",
+      "status": "remade",
+      "source_output": "C:/Users/Administrator/.codex/generated_images/01a0c892-26ab-7631-8c15-8f4896096c16/exec-680237de-0f90-4c88-b2ff-40f14376ba5c.png",
+      "references": [
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-hu-haiyan/images/02-desktop.png",
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-release-v3/02-胡海燕/references/actual-education.png",
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-release-v3/02-胡海燕/references/actual-practice.png"
+      ],
+      "prompt": "Use case: compositing / ads-marketing. Create a replacement slide 02 for Chinese Xiaohongshu campaign. Image 1 defines consistent campaign style only; do NOT reuse its hero screenshot. Images 2 and 3 are actual current webpage screenshots, to insert as accurate enlarged editorial crops. Single portrait 3:4 poster target exactly 1086×1448 pixels. Ivory paper texture, ink black Song fonts, restrained cinnabar, quiet cultural aesthetic, clean editorial composition. Brand top exact「一页映 · 个人网站定制」. Main headline split 3 short balanced lines if needed, exact words「介绍自己时」「作品与经历」「一起被看见」; preferably second and third combine into one line with tasteful font scale if fits. Subtitle exact「学习背景、教学实践，和作品放在一起」. Central visual consists of TWO separate wide softly shadowed screenshot crop panels, stacked. Clearly mark each as a real webpage detail, not a new merged website. Upper panel caption「个人简介 · 网页局部」: use the middle content crop of image 2, emphasize the readable four-row profile at left and lower part of the existing ink landscape at right, remove browser navigation and unrelated 专业能力 below. Profile text exact and fully readable:「教育背景　齐鲁理工学院 · 书法专业本科」「毕业时间　2027 年 6 月」「专业资质　高中教师资格证 · 已取得」「发展方向　书法教育 · 公共美育」. Lower panel caption「教学实践 · 网页局部」: use image 3 with actual section heading 教学实践, two left timeline entries and real classroom calligraphy photo at right. Show exact text「2025.03 - 至今」「少儿硬笔启蒙家教」「2025.09 - 至今」「小学语文与规范书写辅导」; retain supporting paragraph content from screenshot only where enough room, no invented classes or students. Preserve genuine art/photo; don't add fake certificates, fake handwriting or students. The new slide should reveal real education and practice rather than repeat homepage. Footer exact「网页设计与制作：一页映」「书画素材由本人提供」and「02 / 06」. All texts correct Chinese, margins safe, no overlap, phone-sized readability. Nothing outside the 3:4 canvas."
+    },
+    {
+      "file": "images/03-gallery.png",
+      "status": "copied_unchanged",
+      "source": "D:/胡东山/py学习/Web/deliverables/xiaohongshu-hu-haiyan/images/03-gallery.png"
+    },
+    {
+      "file": "images/04-mobile.png",
+      "status": "copied_unchanged",
+      "source": "D:/胡东山/py学习/Web/deliverables/xiaohongshu-hu-haiyan/images/04-mobile.png"
+    },
+    {
+      "file": "images/05-viewer.png",
+      "status": "remade",
+      "source_output": "C:/Users/Administrator/.codex/generated_images/01a0c892-26ab-7631-8c15-8f4896096c16/exec-0b82139e-2410-410b-8e08-d4a84df4f774.png",
+      "references": [
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-hu-haiyan/images/05-viewer.png",
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-hu-haiyan/references/landscape-viewer.png"
+      ],
+      "prompt": "Use case: compositing / ads-marketing. Remake image 1 (slide 05 for Chinese Xiaohongshu campaign) using image 2, the REAL website viewer screenshot. Output single portrait 3:4, target 1086×1448 pixels. Keep overall ivory textured-paper, ink-black Song typography, cinnabar minimal accent campaign style matching image 1. Brand at top exact「一页映 · 个人网站定制」. Large two-line title EXACT「点开看完整作品」「继续翻下一件」; smaller subtitle exact「看全幅，也能放大看细节」. The central visual should now emphasize the actual COMPLETE ink landscape and actual navigation controls: use an enlarged cropped detail of image 2 showing left side of genuine viewer (title 山水写生 / 纸本水墨, the entire uncropped artwork and bottom controls 上一张 7 / 8 下一张 放大细节). Crop off the right art-interpretation sidebar from the screenshot frame, as a promotional detail crop; do not rearrange the viewer UI, do not create fictitious website modes. No replacement artwork; all mountains, trees, buildings and tiny boat stay faithful to reference 2. The screenshot crop should be large, almost square, in a subtle thin browser frame without adding invented text. Above it small honest caption「网页局部展示」. Below central visual use exact「八件作品，连着逛」. Footer exact「网页设计与制作：一页映」「书画素材由本人提供」and「05 / 06」. Clean precise correct Chinese. Main artwork significantly larger than image 1, no dense interpretive text. No new features, awards, conversion guarantees, extra controls or decorative copies of the same art. Complete uncropped poster."
+    },
+    {
+      "file": "images/06-inquiry.png",
+      "status": "remade",
+      "source_output": "C:/Users/Administrator/.codex/generated_images/01a0c892-26ab-7631-8c15-8f4896096c16/exec-b1b46414-c2ee-4e49-b4e7-bbcbe266063a.png",
+      "references": [
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-hu-haiyan/images/06-inquiry.png",
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-hu-haiyan/references/mobile-hero.png"
+      ],
+      "prompt": "Use case: text-localization / ads-marketing. Edit reference image 1, slide 06 of the 一页映 Xiaohongshu campaign. Single vertical 3:4 poster, target 1086×1448 pixels. Keep ivory paper backdrop, ink-black Song font, restrained cinnabar accent, realistic phone to the right and genuine website image inside phone. Reference 2 is authentic mobile website content; preserve 胡海燕 name and exact artwork. Keep brand at top「一页映 · 个人网站定制」. Change large headline to two lines EXACT「想做自己的版本？」「先聊聊职业方向」. Remove the old subtitle 先从你手头已有的资料开始 and remove all three large labels 你的简历 / 你的作品 / 你的项目经历 and their stamp bullets. Do NOT imply visitors need prepared material before consulting. New left-center text with ample space: black medium-large「资料还没整理好，」「也可以先聊聊。」. Beneath add smaller sentence「一起看看适合怎样展示」. Main cinnabar CTA at lower-left should be clear and no wider than left column, exact two lines「私信告诉我」「你的职业方向」. Do not add a drawn fake chat, testimonial, promised result, price, QR code or delivery deadline. Right phone can shift slightly right and retain its current size so every text fits without overlap. Footer exact「网页设计与制作：一页映」「书画素材由本人提供」and page「06 / 06」. Preserve visual continuity with the old slide, readable Chinese correct glyph by glyph, no extra text."
+    }
+  ],
+  "qa": [
+    "6 张均逐张视觉查看",
+    "6 张 PNG IHDR 尺寸均为 1086×1448",
+    "02 经历与真实网页文本逐项核对",
+    "05 标网页局部展示，完整作品及 7/8/翻页/放大入口可见",
+    "01/06 主要中文逐字核对",
+    "03/04 原样复制，旧文件未改",
+    "不承诺零风险或发布流量效果"
+  ]
+}

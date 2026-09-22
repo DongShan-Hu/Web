@@ -1,0 +1,192 @@
+{
+  "version": "v3",
+  "date": "2026-09-22",
+  "total_images": 18,
+  "regenerated": 14,
+  "retained": 4,
+  "posts": [
+    {
+      "directory": "01-Z女士",
+      "title": "游戏美术作品集，做成网页有多好看",
+      "images": [
+        {
+          "file": "01-cover.png",
+          "role": "封面与职业",
+          "status": "重制",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1712247,
+          "sha256": "65d40afeda0aed1dc8627f467fc156ddb9f0c95effbffb2fd89215f96fe9edf8"
+        },
+        {
+          "file": "02-materials.png",
+          "role": "资料如何整理",
+          "status": "重制",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1722720,
+          "sha256": "3a8799383558d62348d091e7593864f253972d874d2a0baf64bdc29f587f4cf4"
+        },
+        {
+          "file": "03-desktop.png",
+          "role": "桌面作品展示",
+          "status": "重制",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1662249,
+          "sha256": "6d99679f946814aab21835d588e39b0e0b30c8ad641c2b5233040e02ffcbbaff"
+        },
+        {
+          "file": "04-mobile.png",
+          "role": "手机浏览",
+          "status": "重制",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1725542,
+          "sha256": "429c948fecb883ad40ca6247877ee705e9e25bdbdfbafad5b6707616b8af87fe"
+        },
+        {
+          "file": "05-interaction.png",
+          "role": "大图与视频",
+          "status": "保留",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1686588,
+          "sha256": "9f60f925f2d434cdbaec64f40f50d064bd98ff10bd18f70c3d8cb03e21f9c4c3"
+        },
+        {
+          "file": "06-inquiry.png",
+          "role": "咨询入口",
+          "status": "保留",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1639360,
+          "sha256": "b1d9875bff4e1e1ba2342d04c84f1285705d8ae240fae88448c301a9bfd5db98"
+        }
+      ],
+      "copy_sha256": "18755c4dbe87363dc81ec6e5859dcdf7ca0915258558baf0a188d6dd8d842af3"
+    },
+    {
+      "directory": "02-胡海燕",
+      "title": "书画作品集，做成自己的线上画廊",
+      "images": [
+        {
+          "file": "01-cover.png",
+          "role": "线上画廊封面",
+          "status": "重制",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1640209,
+          "sha256": "66e23ab5d7554b817938d8f9aaa7529efddc1d0399d024c17c3f8e1c600495c1"
+        },
+        {
+          "file": "02-desktop.png",
+          "role": "作品与经历",
+          "status": "重制",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1840268,
+          "sha256": "d8d0bf8355cd394f43ed6bd975a3810be7807dd60f00446c38b6fd1d5f8e7fc9"
+        },
+        {
+          "file": "03-gallery.png",
+          "role": "作品列表",
+          "status": "保留",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1704597,
+          "sha256": "2b9ddb72eb1ad98c83b7bcde2cc566e5a5c0fe787ed93b8e3d945e6eb97e419d"
+        },
+        {
+          "file": "04-mobile.png",
+          "role": "手机浏览",
+          "status": "保留",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1671756,
+          "sha256": "fa901e309a4306b2630721704c3911060be33dfbe6b8025444d6080077471359"
+        },
+        {
+          "file": "05-viewer.png",
+          "role": "全图与翻页",
+          "status": "重制",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1945408,
+          "sha256": "6ba17c50d93369fc3f732fe3036e5270f330c81fbda1b3c034914010b6543ffd"
+        },
+        {
+          "file": "06-inquiry.png",
+          "role": "咨询入口",
+          "status": "重制",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1600491,
+          "sha256": "ddbc5b05525696ce1f575e8a1fecb50aaf7347b695e2a02479abdf388f42a2e8"
+        }
+      ],
+      "copy_sha256": "bedcbeb66661f6c5fed46c72c16ea6cb618d930a130ec41688d32966fc96cad6"
+    },
+    {
+      "directory": "03-运营简历示意",
+      "title": "运营项目经历，做成网页是什么样",
+      "images": [
+        {
+          "file": "01-cover.png",
+          "role": "运营主题封面",
+          "status": "重制",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1448448,
+          "sha256": "63d6bacc2e5e1159b6bc0cf676b4570e57e89d89632d0c136184628758b2a969"
+        },
+        {
+          "file": "02-materials.png",
+          "role": "同内容前后对照",
+          "status": "重制",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1509949,
+          "sha256": "ba42e90fb377131b27a11e90f2cacf65a01b582d8bda7f629b38a44a0fa2e89f"
+        },
+        {
+          "file": "03-responsibilities.png",
+          "role": "职责与材料",
+          "status": "重制",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1301782,
+          "sha256": "c5ac559226230a15c8e209e22171e999318c765b185afb06fc867a447a4f8915"
+        },
+        {
+          "file": "04-deliverable.png",
+          "role": "展开内容排期",
+          "status": "重制",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1360665,
+          "sha256": "19925983f522e5bbda3d7d4843513e40fc6fb498948316cda690a2dbdcdc2a85"
+        },
+        {
+          "file": "05-mobile.png",
+          "role": "手机浏览",
+          "status": "重制",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1444406,
+          "sha256": "31981ade901aee19f761222b189d8e45ced65cd34eb58624a5dec791267aaaba"
+        },
+        {
+          "file": "06-inquiry.png",
+          "role": "咨询入口",
+          "status": "重制",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 1424714,
+          "sha256": "85fadb11fd0da75dbe25e92791a703149f71b4f62fbacf8c424c3968ed2e9765"
+        }
+      ],
+      "copy_sha256": "3461b53deb17fd89779d78f8b9fe351809c186491bdfb9ef3af4d182a413873e"
+    }
+  ]
+}

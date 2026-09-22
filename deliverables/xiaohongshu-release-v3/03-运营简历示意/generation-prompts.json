@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-09-22",
+  "tool": "built-in image_gen",
+  "case": "林悦｜内容运营 · 项目执行（虚构设计示意）",
+  "dimensions": "1086x1448",
+  "images": [
+    {
+      "no": 1,
+      "file": "01-cover.png",
+      "prompt": "Use case: ads-marketing. Edit this supplied Xiaohongshu poster into revised slide 01 / 06. Exact portrait 3:4 ratio 1086×1448. Keep the pale cool grey, navy and cobalt palette, Chinese headline typography, studio label 一页映｜个人网站设计, credible screen geometry and fictional 林悦 / LIN YUE website. Replace large headline with exactly two lines: “运营项目经历” / “做成网页是什么样”. Subtitle exactly “把自己的经历，做成可分享的个人网站”. Remove the small printed résumé paper entirely; let the finished website be the clear hero, a large near-front-on desktop screen and one matching smartphone below right. Retain existing content identity 内容运营 · 项目执行, project 城市读书计划, actual layout. Keep enough whitespace and complete frame edges. Footer readable and exact “设计示意 · 非真实交付案例” and “网页设计与制作：一页映”. Use big crisp Chinese text, no typos, no gibberish. No new claims, no pricing, no metrics, no logos, no QR or contact info, no invented website domain. Do not invent face/photos. One finished poster only, not collage. Preserve 01 / 06 counter. The marketing emphasis is a beautiful personal website, with the role immediately clear.",
+      "refs": [
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-resume-concept/images/01-cover.png"
+      ],
+      "generated_source": "C:/Users/Administrator/.codex/generated_images/01a0c727-a631-7111-bf7b-8617ebb3b601/exec-806eb5a6-14f4-4caf-b788-cb1ab83cae05.png",
+      "verification": "已逐张检查；人物项目均为虚构示例。最终全套独立复核见总目录核对记录。"
+    },
+    {
+      "no": 2,
+      "file": "02-materials.png",
+      "headline": "同一段经历\\n换一种清楚的呈现",
+      "prompt": "Use case: ads-marketing. Create ONE polished Xiaohongshu slide for 一页映 personal website design, EXACT portrait 3:4, 1086×1448 pixels. First image is STYLE reference only: preserve its pale cool-grey #f4f6fa, dark navy, cobalt blue accents, large Chinese typography and clean premium editorial product photography, realistic subtle shadows, generous margins. Do NOT repeat its hero screen layout. Secondary screenshots are exact CONTENT reference, preserve meaning and text accurately. Big readable outer headline. Top label 一页映｜个人网站设计. Footer exactly 设计示意 · 非真实交付案例 and 网页设计与制作：一页映. Fictional person 林悦, content-operations résumé demo. No actual-client claims, no numerical results, no employer logos, no new contacts, domains, QR codes, people, invented facts or gibberish. Avoid tiny paragraphs, extreme perspective, ornamental charts. No large repeated blue 城市读书计划 hero artwork: this slide must show real content structure. One finished poster not a sheet of posters.\nSlide 02 / 06. Exact mainheadline two lines: 同一段经历 / 换一种清楚的呈现. Subtitle: 简历原文与网页呈现，内容一一对应. Portrait composition: two generously sized stacked panels. Upper panel resembles a clean paper résumé excerpt, with small label 简历里的原文, exact section 城市读书计划 / 社群主题活动 and one readable paragraph: 活动策划：梳理活动流程与人员分工。内容排期：安排招募、预告与回顾内容。执行跟进：记录现场问题与后续改进。 Lower panel is a large near-front-on thin browser frame, label 网页里的呈现, with a clean webpage section 我的职责, three rows with generous hierarchy: 01 活动策划 / 梳理活动流程与人员分工; 02 内容排期 / 安排招募、预告与回顾内容; 03 执行跟进 / 记录现场问题与后续改进. Use only these exact phrases. Same content twice for verifiable comparison, all meaningful text legible at phone-screen scale. Do not include an entire tiny résumé; use this enlarged excerpt. Small connecting down arrow, subtle shadow. The screen itself should look like elegant personal portfolio UI, not a powerpoint checklist. Footer attribution plus 02 / 06. Ref2 is résumé source, ref3 is same website responsibilities.",
+      "refs": [
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-release-v3/03-运营简历示意/images/01-cover.png",
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-release-v3/03-运营简历示意/references/resume-source.png",
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-release-v3/03-运营简历示意/references/desktop-duties.png"
+      ],
+      "generated_source": "C:/Users/Administrator/.codex/generated_images/01a0c727-a631-7111-bf7b-8617ebb3b601/exec-a9b88bfc-ba4e-4bec-bad5-feaebb6910e7.png",
+      "verification": "已逐张检查；人物项目均为虚构示例。最终全套独立复核见总目录核对记录。"
+    },
+    {
+      "no": 3,
+      "file": "03-responsibilities.png",
+      "headline": "你具体负责什么\\n让人一眼看清",
+      "prompt": "Use case: ads-marketing. Create ONE polished Xiaohongshu slide for 一页映 personal website design, EXACT portrait 3:4, 1086×1448 pixels. First image is STYLE reference only: preserve its pale cool-grey #f4f6fa, dark navy, cobalt blue accents, large Chinese typography and clean premium editorial product photography, realistic subtle shadows, generous margins. Do NOT repeat its hero screen layout. Secondary screenshots are exact CONTENT reference, preserve meaning and text accurately. Big readable outer headline. Top label 一页映｜个人网站设计. Footer exactly 设计示意 · 非真实交付案例 and 网页设计与制作：一页映. Fictional person 林悦, content-operations résumé demo. No actual-client claims, no numerical results, no employer logos, no new contacts, domains, QR codes, people, invented facts or gibberish. Avoid tiny paragraphs, extreme perspective, ornamental charts. No large repeated blue 城市读书计划 hero artwork: this slide must show real content structure. One finished poster not a sheet of posters.\nSlide 03 / 06. Exact mainheadline two lines: 你具体负责什么 / 让人一眼看清. Subtitle: 职责、过程、材料，放在一起看. Main visual is a large premium near-front-on wide browser window, slightly higher than wide, featuring enlarged three editorial ROWS, not tiled cards, from reference responsibilities screenshot. Top of screen 林悦 · 内容运营, small blue text 城市读书计划 / 职责展示. Section title 我的职责. Preserve three exact row groups: 01 活动策划 / 梳理活动流程与人员分工 / 活动方案; 02 内容排期 / 安排招募、预告与回顾内容 / 内容排期; 03 执行跟进 / 记录现场问题与后续改进 / 复盘记录. Set text large with beautiful whitespace, separators, blue numerals and a right-aligned output label in each row. Focused close-up UI framed by elegant silver browser edge. All key text should be readable, no desktop monitor stand or unnecessary duplicate phone/paper. Add small exact note 网页局部展示. Attractive page design carries the image. Counter 03 / 06. Ref2 is exact actual HTML webpage content.",
+      "refs": [
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-release-v3/03-运营简历示意/images/01-cover.png",
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-release-v3/03-运营简历示意/references/desktop-duties.png"
+      ],
+      "generated_source": "C:/Users/Administrator/.codex/generated_images/01a0c727-a631-7111-bf7b-8617ebb3b601/exec-452fd924-d70b-402f-a628-26eb04cc7e6e.png",
+      "verification": "已逐张检查；人物项目均为虚构示例。最终全套独立复核见总目录核对记录。"
+    },
+    {
+      "no": 4,
+      "file": "04-deliverable.png",
+      "headline": "把项目材料展开\\n细节就有了位置",
+      "prompt": "Use case: ads-marketing. Create ONE polished Xiaohongshu slide for 一页映 personal website design, EXACT portrait 3:4, 1086×1448 pixels. First image is STYLE reference only: preserve its pale cool-grey #f4f6fa, dark navy, cobalt blue accents, large Chinese typography and clean premium editorial product photography, realistic subtle shadows, generous margins. Do NOT repeat its hero screen layout. Secondary screenshots are exact CONTENT reference, preserve meaning and text accurately. Big readable outer headline. Top label 一页映｜个人网站设计. Footer exactly 设计示意 · 非真实交付案例 and 网页设计与制作：一页映. Fictional person 林悦, content-operations résumé demo. No actual-client claims, no numerical results, no employer logos, no new contacts, domains, QR codes, people, invented facts or gibberish. Avoid tiny paragraphs, extreme perspective, ornamental charts. No large repeated blue 城市读书计划 hero artwork: this slide must show real content structure. One finished poster not a sheet of posters.\nSlide 04 / 06. Exact mainheadline two lines: 把项目材料展开 / 细节就有了位置. Subtitle: 一份内容排期，也能成为展示内容. Show ONE large beautiful front-on browser window displaying the real content schedule from reference2, enlarged rather than hero art. Section label 城市读书计划 / 示例产出. Page heading 活动内容排期 with a small pill 示例内容. A spacious THREE-COLUMN TABLE (not four), precise labels 时间 / 内容 / 发布前检查. Exactly THREE data rows: 活动前7天 | 招募介绍 | 主题·时间·报名方式; 活动前1天 | 参与提醒 | 地点·流程·携带物品; 活动后1天 | 活动回顾 | 现场记录·反馈·后续安排. Three rows in correct chronological order and exact characters. Navy text, cobalt rules and restrained blue accents, beautiful wide row spacing. Show the whole table so every row is legible, no hidden/cutoff rows, no overlapping floating cards. Counter 04 / 06. Small note below visual 材料为虚构示例，仅展示网页呈现方式. Keep outer footer label. This is concrete fictional content, do not embellish with metrics. Ref2 is actual HTML content source.",
+      "refs": [
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-release-v3/03-运营简历示意/images/01-cover.png",
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-release-v3/03-运营简历示意/references/desktop-schedule.png"
+      ],
+      "generated_source": "C:/Users/Administrator/.codex/generated_images/01a0c727-a631-7111-bf7b-8617ebb3b601/exec-2d6e8b2a-2549-4dc0-a1a1-f0a0b90c9ac8.png",
+      "verification": "已逐张检查；人物项目均为虚构示例。最终全套独立复核见总目录核对记录。"
+    },
+    {
+      "no": 5,
+      "file": "05-mobile.png",
+      "headline": "手机点开\\n经历与项目随手看",
+      "prompt": "Use case: ads-marketing. Create ONE polished Xiaohongshu slide for 一页映 personal website design, EXACT portrait 3:4, 1086×1448 pixels. First image is STYLE reference only: preserve its pale cool-grey #f4f6fa, dark navy, cobalt blue accents, large Chinese typography and clean premium editorial product photography, realistic subtle shadows, generous margins. Do NOT repeat its hero screen layout. Secondary screenshots are exact CONTENT reference, preserve meaning and text accurately. Big readable outer headline. Top label 一页映｜个人网站设计. Footer exactly 设计示意 · 非真实交付案例 and 网页设计与制作：一页映. Fictional person 林悦, content-operations résumé demo. No actual-client claims, no numerical results, no employer logos, no new contacts, domains, QR codes, people, invented facts or gibberish. Avoid tiny paragraphs, extreme perspective, ornamental charts. No large repeated blue 城市读书计划 hero artwork: this slide must show real content structure. One finished poster not a sheet of posters.\nSlide 05 / 06. Headline exactly 手机点开 / 经历与项目随手看. Subtitle exactly 从具体职责，到一份完整的项目材料. Two large high-end silver smartphones standing near-front-on with minimal perspective, subtle stagger, occupying most of the lower canvas. LEFT PHONE shows real mobile responsibilities screenshot2: heading 我在项目里，具体负责什么。 followed by exact 01 活动策划 / 梳理活动流程与人员分工 / 活动方案; 02 内容排期 / 安排招募、预告与回顾内容 / 内容排期; 03 执行跟进 / 记录现场问题与后续改进 / 复盘记录. RIGHT PHONE shows mobile schedule screenshot3: heading 一份内容排期，看清项目如何推进。; inner panel 活动内容排期 / 示例内容; three spacious stacked rows: 活动前7天 招募介绍 / 主题·时间·报名方式; 活动前1天 参与提醒 / 地点·流程·携带物品; 活动后1天 活动回顾 / 现场记录·反馈·后续安排. Enlarge screens for key labels to be crisp. Respect mobile layout; do not squeeze desktop columns into phones. Omit further sections visible at bottom of references, only these relevant sections. No blue project hero art. Have exact small label 手机页面展示. Footer exact design-demo disclaimer. Counter 05 / 06.",
+      "refs": [
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-release-v3/03-运营简历示意/images/01-cover.png",
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-release-v3/03-运营简历示意/references/mobile-duties.png",
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-release-v3/03-运营简历示意/references/mobile-schedule.png"
+      ],
+      "generated_source": "C:/Users/Administrator/.codex/generated_images/01a0c727-a631-7111-bf7b-8617ebb3b601/exec-31efa193-a7f0-4192-9975-9692fe852b73.png",
+      "verification": "已逐张检查；人物项目均为虚构示例。最终全套独立复核见总目录核对记录。"
+    },
+    {
+      "no": 6,
+      "file": "06-inquiry.png",
+      "headline": "也想做自己的版本？",
+      "prompt": "Use case: ads-marketing. Create ONE polished Xiaohongshu slide for 一页映 personal website design, EXACT portrait 3:4, 1086×1448 pixels. First image is STYLE reference only: preserve its pale cool-grey #f4f6fa, dark navy, cobalt blue accents, large Chinese typography and clean premium editorial product photography, realistic subtle shadows, generous margins. Do NOT repeat its hero screen layout. Secondary screenshots are exact CONTENT reference, preserve meaning and text accurately. Big readable outer headline. Top label 一页映｜个人网站设计. Footer exactly 设计示意 · 非真实交付案例 and 网页设计与制作：一页映. Fictional person 林悦, content-operations résumé demo. No actual-client claims, no numerical results, no employer logos, no new contacts, domains, QR codes, people, invented facts or gibberish. Avoid tiny paragraphs, extreme perspective, ornamental charts. No large repeated blue 城市读书计划 hero artwork: this slide must show real content structure. One finished poster not a sheet of posters.\nSlide 06 / 06. A calm inviting final inquiry poster. Very large headline near upper left exactly 也想做自己的版本？ (may split after 自己的 if needed, but prefer two balanced lines 也想做 / 自己的版本？). Exact prominent blue CTA text below: 先私信告诉我你的职业方向. Smaller but very readable support: 资料还没整理好，也可以先聊聊. Add a restrained fine-line three-step sentence lower: 聊清用途 → 整理内容 → 确定方案. Visual lower half: one beautiful small-to-medium laptop showing the fictional 林悦 personal-site homepage from reference (project title 城市读书计划). Entire device intact, near-front-on, desktop screen readable, no duplicate floating windows or résumé paper. Screen should occupy about 40% of the poster so invitation copy is the clear focus, nice breathing room. Counter 06 / 06. Preserve exact footer 设计示意 · 非真实交付案例 and 网页设计与制作：一页映. No words about free work, costs, promised outcomes, delivery dates. This is one optional private-message invitation, no mandatory list of documents. No comment-bait, no social-media app/chat screenshot.",
+      "refs": [
+        "D:/胡东山/py学习/Web/deliverables/xiaohongshu-release-v3/03-运营简历示意/images/01-cover.png"
+      ],
+      "generated_source": "C:/Users/Administrator/.codex/generated_images/01a0c727-a631-7111-bf7b-8617ebb3b601/exec-89e85a80-8763-409a-82a9-6c9b12025ed6.png",
+      "verification": "已逐张检查；人物项目均为虚构示例。最终全套独立复核见总目录核对记录。"
+    }
+  ],
+  "source_note": "示例原文与职责内容在demo/index.html和demo/resume.html中保持一致。截图在references/，未修改客户站点或旧版交付目录。"
+}

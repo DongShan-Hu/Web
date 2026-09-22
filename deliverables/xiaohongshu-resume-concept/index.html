@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>一页映 · 第三篇发布包</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: #f3f5f8; color: #17263e; font: 16px/1.8 "Microsoft YaHei", system-ui, sans-serif; }
+    main { max-width: 1360px; margin: auto; padding: 46px 32px 72px; }
+    header { padding-bottom: 28px; margin-bottom: 30px; border-bottom: 1px solid #ccd5e2; }
+    .eyebrow { color: #4568a2; font-size: 13px; letter-spacing: .1em; }
+    h1 { margin: 10px 0 14px; font-size: clamp(28px, 4.3vw, 46px); line-height: 1.35; font-weight: 600; letter-spacing: -.035em; }
+    h2 { font-size: 26px; line-height: 1.5; margin: 0 0 18px; }
+    h3 { margin: 0 0 10px; font-size: 17px; }
+    p { margin: 8px 0; }
+    a { color: #244e96; text-underline-offset: 4px; }
+    .muted, .note { color: #59677c; }
+    .disclosure { display: inline-block; margin: 10px 0 4px; padding: 3px 10px; background: #e5ebf3; border: 1px solid #cbd6e6; border-radius: 4px; font-size: 13px; }
+    .actions { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+    button, .button { display: inline-block; padding: 9px 17px; border: 1px solid #315a9b; border-radius: 4px; background: #244e8b; color: #fff; font: inherit; text-decoration: none; cursor: pointer; }
+    button:hover, .button:hover { background: #193b6d; }
+    .secondary { color: #244e8b; background: transparent; }
+    .secondary:hover { background: #e6ecf6; }
+    button:focus-visible, a:focus-visible, textarea:focus-visible { outline: 3px solid #4c7ac4; outline-offset: 4px; }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px 22px; }
+    figure { margin: 0; }
+    figure a { display: block; }
+    figure img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; background: #e5eaf2; box-shadow: 0 6px 24px #102d5210; }
+    figcaption { padding: 12px 2px; font-size: 15px; }
+    figcaption strong { display: block; font-weight: 600; }
+    figcaption span { font-size: 13px; color: #59677c; }
+    .copy { margin-top: 44px; padding-top: 32px; border-top: 1px solid #ccd5e2; }
+    .copy-layout { display: grid; grid-template-columns: minmax(0, 1fr) 290px; gap: 32px; }
+    textarea { display: block; width: 100%; min-height: 760px; padding: 24px; resize: vertical; border: 1px solid #ccd5e2; border-radius: 4px; background: #fff; color: #17263e; font: 16px/1.9 "Microsoft YaHei", system-ui, sans-serif; }
+    .status { min-height: 1.8em; color: #375784; font-size: 14px; }
+    aside { font-size: 14px; }
+    aside section + section { margin-top: 28px; }
+    ol { padding-left: 22px; }
+    li { margin: 8px 0; }
+    .note { margin-top: 36px; padding-top: 20px; border-top: 1px solid #ccd5e2; font-size: 13px; }
+    @media (max-width: 900px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .copy-layout { grid-template-columns: 1fr; } }
+    @media (max-width: 520px) { main { padding: 28px 18px 46px; } .grid { grid-template-columns: 1fr; gap: 20px; } textarea { padding: 16px; font-size: 15px; } button, .button { font-size: 14px; } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">一页映 · 小红书第三篇</div>
+      <h1>只有一份简历，也能做成这样</h1>
+      <p class="muted">林悦 · 内容运营与项目执行｜六张 PNG · 3:4</p>
+      <p class="disclosure">设计示意 · 非真实交付案例</p>
+      <div class="actions">
+        <a class="button secondary" href="#copy">复制发布文案</a>
+        <a class="button secondary" href="发布文案_直接复制.txt" download>下载纯文本</a>
+      </div>
+    </header>
+
+    <section class="grid" aria-label="按上传顺序排列的六张图片">
+      <figure><a href="images/01-cover.png" target="_blank" rel="noopener"><img src="images/01-cover.png" width="1086" height="1448" alt="封面：只有一份简历，也能做成这样"></a><figcaption><strong>01 · 封面</strong><span>只有一份简历，也能做成这样</span></figcaption></figure>
+      <figure><a href="images/02-materials.png" target="_blank" rel="noopener"><img src="images/02-materials.png" width="1086" height="1448" alt="已有材料：你手里的资料，就能成为起点" loading="lazy"></a><figcaption><strong>02 · 已有材料</strong><span>你手里的资料，就能成为起点</span></figcaption></figure>
+      <figure><a href="images/03-intro.png" target="_blank" rel="noopener"><img src="images/03-intro.png" width="1086" height="1448" alt="首屏介绍：打开网页，就认识你" loading="lazy"></a><figcaption><strong>03 · 首屏介绍</strong><span>打开网页，就认识你</span></figcaption></figure>
+      <figure><a href="images/04-project.png" target="_blank" rel="noopener"><img src="images/04-project.png" width="1086" height="1448" alt="项目展示：做过的项目，值得好好展示" loading="lazy"></a><figcaption><strong>04 · 项目展示</strong><span>做过的项目，值得好好展示</span></figcaption></figure>
+      <figure><a href="images/05-mobile.png" target="_blank" rel="noopener"><img src="images/05-mobile.png" width="1086" height="1448" alt="手机浏览：介绍自己，从一个链接开始" loading="lazy"></a><figcaption><strong>05 · 手机浏览</strong><span>介绍自己，从一个链接开始</span></figcaption></figure>
+      <figure><a href="images/06-inquiry.png" target="_blank" rel="noopener"><img src="images/06-inquiry.png" width="1086" height="1448" alt="定制邀请：你的简历，会变成什么样？" loading="lazy"></a><figcaption><strong>06 · 定制邀请</strong><span>你的简历，会变成什么样？</span></figcaption></figure>
+    </section>
+
+    <section class="copy" id="copy">
+      <h2>发布文案</h2>
+      <div class="copy-layout">
+        <div>
+          <textarea id="post-copy" readonly aria-label="标题、正文与标签">只有一份简历，也能做成这样
+
+如果手里只有一份简历和几段项目经历，个人网站能做成什么样？
+
+这次用内容运营与项目执行的示例资料，设计了一份个人主页。
+姓名、一句介绍、做过的事情，重新整理之后，也能有清爽、有层次的展示。
+
+打开先认识你，往下再了解你做过的项目。
+比如一次社群活动，可以把活动策划、内容排期、执行跟进，以及完成的材料，放在同一个页面里。
+手机上也安排了适合阅读的顺序，让别人慢慢了解你的经历。
+
+我喜欢这样的个人网站：它能把你已有的资料，整理成一份有自己气质的介绍。
+
+本篇为设计示意，非真实交付案例。“林悦”与“城市读书计划”均为虚构示例，使用示例资料；网页设计与制作由一页映完成。
+
+如果你也想做一份，可以私信我你的职业方向，以及手头已有的简历或项目介绍。先一起看看适合怎样呈现，再确定制作方案，不需要你会写代码。
+
+#个人网站 #网页简历 #个人主页 #网页设计 #简历设计 #项目展示</textarea>
+          <div class="actions">
+            <button type="button" data-copy="all">复制全部文案</button>
+            <button class="secondary" type="button" data-copy="title">只复制标题</button>
+            <button class="secondary" type="button" data-copy="body">复制正文与标签</button>
+          </div>
+          <p class="status" id="copy-status" role="status" aria-live="polite"></p>
+        </div>
+        <aside>
+          <section><h3>使用顺序</h3><ol><li>按 01—06 顺序上传六张原图。</li><li>使用 01-cover.png 作为封面。</li><li>复制标题，再复制正文与标签。</li></ol></section>
+          <section><h3>可选首评</h3><p>手头还没有完整作品集，也可以先聊聊已有的简历和项目材料。你希望别人打开个人主页时，先认识你的哪一面？</p></section>
+          <section><h3>文案文件</h3><p><a href="第三篇发布文案.md">完整文案与备选标题</a></p><p><a href="发布顺序.txt">查看发布顺序</a></p></section>
+        </aside>
+      </div>
+    </section>
+
+    <footer class="note">“林悦”与“城市读书计划”均为虚构示例。六图为 AI 宣传排版，屏幕以本地 HTML 截图作参考，细微小字可能有重绘；页面内容与布局以制作目录中的离线示意页为准。本篇为设计示意，非真实交付或已上线案例。网页设计与制作：一页映。</footer>
+  </main>
+  <script>
+    const field = document.getElementById('post-copy');
+    const status = document.getElementById('copy-status');
+    for (const button of document.querySelectorAll('[data-copy]')) {
+      button.addEventListener('click', async () => {
+        const full = field.value;
+        const titleEnd = full.indexOf('\n');
+        const bodyStart = titleEnd + 2;
+        const mode = button.dataset.copy;
+        const start = mode === 'body' ? bodyStart : 0;
+        const end = mode === 'title' ? titleEnd : full.length;
+        const text = full.slice(start, end);
+        try {
+          if (!navigator.clipboard || !window.isSecureContext) throw new Error('Use selection fallback');
+          await navigator.clipboard.writeText(text);
+          status.textContent = '已复制';
+        } catch {
+          field.focus();
+          field.setSelectionRange(start, end);
+          let copied = false;
+          try { copied = document.execCommand('copy'); } catch { /* Keep the requested text selected for manual copying. */ }
+          status.textContent = copied ? '已复制' : '文案已选中，请长按复制，或按 Ctrl+C。';
+        }
+      });
+    }
+  </script>
+</body>
+</html>

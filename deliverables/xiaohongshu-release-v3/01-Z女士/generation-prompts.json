@@ -1,0 +1,62 @@
+{
+  "version": 3,
+  "date": "2026-09-22",
+  "tool": "built-in image_gen",
+  "release": "第一篇：Z 女士",
+  "originalFilesUnchanged": true,
+  "requestedSize": "1086×1448 (3:4)",
+  "notes": [
+    "02 为内容整理示意，非自动转换流程。",
+    "03/04 选择作品卡片视图，准确保留团队项目归属；未改客户网站，没有宣称逐镜头个人贡献已经核验。",
+    "项目标题与 public/sites/zhang-hong/public-projects.js 核对：绯雪 · 不见春；珂莱塔 · 悔罪的暮宴。"
+  ],
+  "assets": [
+    {
+      "file": "images/01-cover.png",
+      "action": "regenerated",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0c891-d64e-7f92-8e15-9549e9e12ea3\\exec-545fa599-a28f-4731-a33c-18557f33771f.png",
+      "reference": "D:\\胡东山\\py学习\\Web\\deliverables\\xiaohongshu-z-lady\\images-v2\\01-cover.png",
+      "prompt": "Use case: text-localization. Edit this existing Xiaohongshu marketing poster, preserving its premium dark navy cinematic atmosphere, lilac type, gold brand rule, exact character artwork, desktop and phone mockups, footer and aspect ratio. Output a single finished 3:4 portrait image, 1086×1448 pixels. The one requested change is to replace the small subtitle under the large two-line headline with exactly: “游戏灯光师 Z 女士的网页作品集”. Keep large headline exactly “作品集做成网页” and “第一眼就不一样”. Preserve exact brand “一页映 · 网页作品集定制” and footer “网页设计与制作：一页映”, “案例已授权 · 信息已脱敏”, “01 / 06”. All visible personal names must be only Z 女士, no other real personal name. Do not invent project achievements or change website imagery. Keep the visual professionally sharp and all Chinese text accurate; no extra text or elements. Match reference's original composition and framing exactly."
+    },
+    {
+      "file": "images/02-materials.png",
+      "action": "regenerated",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0c891-d64e-7f92-8e15-9549e9e12ea3\\exec-fb6f87f9-d832-4e3d-a3a4-282a8428a7a9.png",
+      "reference": "D:\\胡东山\\py学习\\Web\\deliverables\\xiaohongshu-z-lady\\images-v2\\02-materials.png",
+      "prompt": "Use case: ads-marketing. Rebuild slide 02 of this existing Xiaohongshu six-image campaign. Input image is the style and source artwork reference, not a layout to repeat. Output one finished 3:4 portrait poster at 1086×1448. Preserve the premium deep-navy cinematic palette, purple edge light, lilac bold Chinese typography, small gold brand line, restrained silver/gold dividers and Z 女士 identity. Top brand exactly “一页映 · 网页作品集定制”. Large two-line heading exactly “把零散资料” / “整理成个人网站”. Subtitle exactly “经历、图片与视频，都有合适的位置”. Replace the old huge browser and duplicated two-card project view with a clean, immediately readable three-row visual mapping, around lower two thirds of poster, NO giant full homepage. Left side has three small frosted document tiles labelled exactly “简历”, “作品图”, “作品视频”; use matching document, landscape and play icons respectively. Each tile connects with one thin elegant gold arrow to a distinct website-content snippet on the right. Row 1 is a dark profile snippet labelled “个人介绍”, with exact large text “Z 女士” and “游戏灯光与合成”. Row 2 is an airy image excerpt labelled “项目选集”, using the recognizable white-haired blue-toned game character artwork already in the reference, with small label “团队项目影像”. Row 3 is a dark widescreen media excerpt labelled “视频入口”, using a different crop of the existing reference's character image with a simple central play control; label “官方公开视频”. This is a visual explanation of content organization, not evidence of an automatic conversion product. Put a clear but secondary “内容整理示意” below mappings. Above footer include accurate one-line attribution “所示影像来自客户参与的团队项目”. Footer exact “网页设计与制作：一页映”, “02 / 06”. Text must be crisp, all wording exactly as specified, reduce clutter and microtext. Do not include the old unfinished scope paragraph, dates, metrics, client results, detailed individual shot credits, or other personal names. Never imply the project film was independently created by this client. Preserve professional campaign polish and artwork identity."
+    },
+    {
+      "file": "images/03-desktop.png",
+      "action": "regenerated",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0c891-d64e-7f92-8e15-9549e9e12ea3\\exec-bd2d9b27-285d-4a54-9f2c-f7c45607d329.png",
+      "reference": "D:\\胡东山\\py学习\\Web\\deliverables\\xiaohongshu-z-lady\\images-v2\\03-desktop.png",
+      "prompt": "Use case: text-localization. Make a precise correction to this already-composed poster. Keep all images, all design, branding, composition, colors and other text unchanged. Correct ONLY the right-hand project title to exactly “珂莱塔 · 悔罪的暮宴”. The critical character is 暮 (日暮的暮), NOT 蕾. This is the official title verified from project source. The exact phrase must read 悔罪的暮宴. Left title stays “绯雪 · 不见春”. Keep “影像来自客户参与的团队项目”. Also normalize the final output to exactly 1086 pixels wide and 1448 pixels tall, true 3:4 portrait, without visible cropping of anything. Do not change any other details or add any text."
+    },
+    {
+      "file": "images/04-mobile.png",
+      "action": "regenerated",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0c891-d64e-7f92-8e15-9549e9e12ea3\\exec-bc820086-8321-4e80-ac70-4d555892da7e.png",
+      "reference": "D:\\胡东山\\py学习\\Web\\deliverables\\xiaohongshu-z-lady\\images-v2\\04-mobile.png",
+      "prompt": "Use case: precise-object-edit. Edit slide 04, preserving the existing dark cinematic navy/lilac/gold campaign style, brand, two realistic phone mockups, original artworks and left phone homepage. Single finished 1086×1448 portrait, true 3:4. Exact text outside devices: top “一页映 · 网页作品集定制”; headline lines “手机打开” / “也一样好看”; subtitle “发出一个链接，随时展示你的个人页面”; labels under phones “首页” and “作品”; footer “网页设计与制作：一页映” and “04 / 06”. Change ONLY the content viewport of the right phone: scroll the webpage beyond its project intro and incomplete contribution-scope text to directly show the existing two artwork cards, vertically stacked. Keep slim sticky nav “Z · Z 女士”, “作品”, “专业能力”, “简历 ↗”. Beneath it show large first official character image of the blue-toned white-haired woman, title exactly “绯雪 · 不见春”, descriptor “角色宣传 CG”; below show second official character image of the pink-toned white-haired woman, title exactly “珂莱塔 · 悔罪的暮宴”, descriptor “角色宣传 CG”. Fit both clearly in right phone with generous artwork size and no overcrowded paragraphs. The character 暮 must be correct (日暮的暮). Do not show the old “我的职责 / 展示范围 / 待补充” paragraphs: they are scrolled out of view. Do not invent statements saying individual shot ownership verified. Outside devices, in a small clearly readable line between phone labels and footer, add honest attribution exactly “影像来自客户参与的团队项目”. This makes team ownership explicit while preserving actual project artwork. All other content and design remain as reference. No real personal names other than Z 女士, no added achievements, prices, contacts or fake metrics."
+    },
+    {
+      "file": "images/05-interaction.png",
+      "action": "retained",
+      "source": "D:\\胡东山\\py学习\\Web\\deliverables\\xiaohongshu-z-lady\\images-v2\\05-interaction.png"
+    },
+    {
+      "file": "images/06-inquiry.png",
+      "action": "retained",
+      "source": "D:\\胡东山\\py学习\\Web\\deliverables\\xiaohongshu-z-lady\\images-v2\\06-inquiry.png"
+    }
+  ],
+  "revisions": [
+    {
+      "image": "03-desktop.png",
+      "status": "discarded initial generation",
+      "reason": "项目名应为暮宴；纠正首次提示词中的蕾宴错字，并恢复统一尺寸。",
+      "prompt": "Use case: precise-object-edit. Rebuild slide 03 of this existing Xiaohongshu poster while preserving the same dark navy cinematic style, lilac headline, gold accent, device frame, existing two original game character images, overall premium visual quality. Output a single 3:4 portrait 1086×1448. Exact top brand “一页映 · 网页作品集定制”. Keep exact two-line heading “让你的作品” / “拥有自己的展厅”. Keep subtitle “大图展开，项目有序，细节值得停留”. IMPORTANT viewport change: the browser shown must be scrolled down past the old “鸣潮 角色宣传CG / 我的职责 / 展示范围” introductory paragraph, so those paragraphs and their incomplete wording are outside the viewport. Do not merely erase individual words while implying contribution scope verified. Start the browser viewport directly at the two existing image cards, larger and prominently framed, keeping recognizable original pictures unchanged. Beneath left image put only “绯雪 · 不见春”, beneath right image “珂莱塔 · 悔罪的蕾宴”, then each has small descriptor “角色宣传 CG”. No dates or extra technical paragraphs. Preserve the visible open-image corner affordance. Immediately outside and beneath the browser place one clearly readable accurate attribution line “影像来自客户参与的团队项目”. Below that keep three evenly spaced features “作品大图” | “项目介绍” | “个人经历”. Footer “网页设计与制作：一页映” and “03 / 06”. No other text beyond specified labels is needed. Never state or imply films or shots were independently created by one client. Do not add false achievements, results, names or contact details. Only name permitted if needed is Z 女士. Design must still feel like a beautiful portfolio case, with impactful large artwork and simple readable hierarchy.",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0c891-d64e-7f92-8e15-9549e9e12ea3\\exec-2bc6853f-80b9-4afb-8a20-dc922dce2e45.png"
+    }
+  ]
+}

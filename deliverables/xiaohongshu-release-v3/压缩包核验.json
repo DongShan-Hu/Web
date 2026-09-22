@@ -1,0 +1,30 @@
+[
+  {
+    "file": "01-Z女士\\发布包.zip",
+    "entries": 10,
+    "png_count": 6,
+    "bytes": 10077921,
+    "all_entry_sha256_match": true
+  },
+  {
+    "file": "02-胡海燕\\发布包.zip",
+    "entries": 10,
+    "png_count": 6,
+    "bytes": 10332816,
+    "all_entry_sha256_match": true
+  },
+  {
+    "file": "03-运营简历示意\\发布包.zip",
+    "entries": 10,
+    "png_count": 6,
+    "bytes": 8418775,
+    "all_entry_sha256_match": true
+  },
+  {
+    "file": "前三篇_新版发布包.zip",
+    "entries": 32,
+    "png_count": 18,
+    "bytes": 28835821,
+    "all_entry_sha256_match": true
+  }
+]
