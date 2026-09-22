@@ -14,7 +14,7 @@ http://客户名称.134.195.211.122.sslip.io/     后续展示站点
 
 客户使用独立子域名。IP 本身不能直接加客户前缀，暂用 [sslip.io 公共 DNS](https://nip.io/) 将域名解析到服务器公网 IP。主站也可以通过 `http://134.195.211.122/` 访问。
 
-购买域名后将主域名与 `*` 的 A 记录指向服务器，在 Nginx 更新域名规则与 HTTPS，并把 `public/config.js` 的 `customerDomain` 改为你的主域名；客户地址变成 `客户名称.你的域名`。本地预览沿用 `/sites/客户名称/`，文件目录与公网子域名相互独立。
+购买域名后**只需修改 `deploy/domain.env` 一处**，再执行 `bash deploy/apply-domain.sh`，Nginx 配置与 `public/config.js` 会一起重新生成。DNS 把主域名与 `*` 的 A 记录指向服务器即可，客户地址变成 `客户名称.你的域名`。本地预览沿用 `/sites/客户名称/`，文件目录与公网子域名相互独立。完整步骤见 [购买域名后](docs/服务器部署.md)。
 
 ## 本地预览
 
@@ -83,7 +83,9 @@ public/                  唯一对外发布的网站根目录
     客户-slug/           后续客户按需创建独立目录
 templates/               三类待编辑的起步模板，不直接发布
 scripts/                 本地预览、检查、构建与添加站点
-deploy/nginx.conf        Docker 内的 Nginx 配置
+deploy/nginx.conf        Docker 内的 Nginx 配置（由 domain.env 生成）
+deploy/domain.env        域名唯一配置源，换域名只改这里
+deploy/apply-domain.sh   从 domain.env 生成 Nginx 配置与 public/config.js
 Dockerfile, compose.yaml 自有服务器部署配置
 docs/                    中文部署与维护说明
 ```

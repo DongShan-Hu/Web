@@ -36,6 +36,11 @@ if [ ! -d /etc/nginx/conf.d ]; then
   echo "不是标准 Ubuntu Nginx 安装（可能使用宝塔），请使用部署文档接入。" >&2
   exit 1
 fi
+# 从 domain.env 渲染 nginx.conf 与 public/config.js，保证域名只有一处配置源。
+bash "$repo_root/deploy/apply-domain.sh"
+# shellcheck disable=SC1091
+. "$repo_root/deploy/domain.env"
+
 config_path=/etc/nginx/conf.d/dongshan-web.conf
 if [ -e "$config_path" ]; then
   cp -- "$config_path" "$config_path.backup-$(date +%Y%m%d-%H%M%S)"
@@ -45,6 +50,6 @@ nginx -t
 systemctl enable nginx
 if ! systemctl is-active --quiet nginx; then systemctl start nginx; fi
 systemctl reload nginx
-curl -fsS -H 'Host: 134.195.211.122.sslip.io' http://127.0.0.1/healthz
-echo "主站：http://134.195.211.122.sslip.io/"
-echo "作品集：http://zhang-hong.134.195.211.122.sslip.io/"
+curl -fsS -H "Host: ${PRIMARY_DOMAIN}" http://127.0.0.1/healthz
+echo "主站：${PUBLIC_SCHEME:-http}://${PRIMARY_DOMAIN}/"
+echo "作品集：${PUBLIC_SCHEME:-http}://zhanghong.${PRIMARY_DOMAIN}/"
