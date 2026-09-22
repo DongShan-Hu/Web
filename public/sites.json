@@ -6,7 +6,11 @@
     "summary": "UE 灯光、Nuke 合成与风格化影像。包含角色宣传 CG、动画电影及剧集的制作经历、作品图集与个人简历。",
     "cover": "sites/zhang-hong/assets/wuwa-hiyuki.webp",
     "coverAlt": "鸣潮绯雪官方 PV 封面，游戏灯光师 Z 女士参与项目展示",
-    "tags": ["UE 灯光", "Nuke 合成", "角色 CG"],
+    "tags": [
+      "UE 灯光",
+      "Nuke 合成",
+      "角色 CG"
+    ],
     "updated": "2026-09-14",
     "listed": true
   },
@@ -17,8 +21,45 @@
     "summary": "齐鲁理工学院书法专业本科生，展示书法、国画、个人印章、教学实践与专业荣誉。",
     "cover": "sites/hu-haiyan/assets/hero-bird-fruit.webp",
     "coverAlt": "胡海燕花鸟设色作品，果树枝头立着一只小鸟",
-    "tags": ["书法教育", "国画", "公共美育"],
-    "updated": "2026-09-20",
+    "tags": [
+      "书法教育",
+      "国画",
+      "公共美育"
+    ],
+    "updated": "2026-09-21",
+    "listed": true
+  },
+  {
+    "slug": "demo-dev",
+    "name": "陈晓｜前端应届生",
+    "category": "resume",
+    "summary": "互联网技术岗网页简历样例：项目经历结构化展示",
+    "cover": "sites/demo-dev/assets/project-dashboard.svg",
+    "coverAlt": "陈晓样例站里的运营数据大屏界面示意图",
+    "tags": ["前端简历", "应届生", "React"],
+    "updated": "2026-09-21",
+    "listed": false
+  },
+  {
+    "slug": "demo-design",
+    "name": "林然｜视觉设计师",
+    "category": "resume",
+    "summary": "设计岗作品集样例：大图作品与项目流程展示",
+    "cover": "sites/demo-design/assets/poster-brand.svg",
+    "coverAlt": "林然样例站里的山色茶饮品牌主视觉海报",
+    "tags": ["品牌视觉", "海报", "包装"],
+    "updated": "2026-09-21",
+    "listed": false
+  },
+  {
+    "slug": "demo-edu",
+    "name": "小雅｜幼教应届生",
+    "category": "resume",
+    "summary": "非技术岗网页简历样例：学前教育背景与实习成果",
+    "cover": "sites/demo-edu/assets/huanchuang.svg",
+    "coverAlt": "小雅样例站里的中班阅读角环创平面示意图",
+    "tags": ["学前教育", "幼师", "环创设计"],
+    "updated": "2026-09-21",
     "listed": false
   }
 ]

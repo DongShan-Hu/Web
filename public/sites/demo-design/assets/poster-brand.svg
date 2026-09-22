@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="山色茶饮品牌主视觉海报">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8874b"/><stop offset=".55" stop-color="#c75c2e"/><stop offset="1" stop-color="#8f3a1e"/>
+    </linearGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5d7b8" stop-opacity=".85"/><stop offset="1" stop-color="#f5d7b8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1d4e5e"/><stop offset=".5" stop-color="#2a6b7c"/><stop offset="1" stop-color="#143744"/>
+    </linearGradient>
+    <linearGradient id="bottle2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2d6b4f"/><stop offset=".5" stop-color="#3f8a66"/><stop offset="1" stop-color="#1e4a36"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <ellipse cx="330" cy="330" rx="420" ry="110" fill="url(#mist)"/>
+  <path d="M-40 372 Q120 288 260 336 T520 318 L520 600 L-40 600 Z" fill="#7c3018" opacity=".5"/>
+  <path d="M240 402 Q400 320 560 372 T880 350 L880 600 L240 600 Z" fill="#672512" opacity=".55"/>
+  <path d="M-40 452 Q180 388 380 436 T840 424 L840 600 L-40 600 Z" fill="#521d0e" opacity=".6"/>
+  <circle cx="620" cy="150" r="58" fill="#f6e3c2" opacity=".9"/>
+  <circle cx="620" cy="150" r="76" fill="none" stroke="#f6e3c2" stroke-opacity=".4"/>
+  <text x="66" y="180" font-family="'Songti SC','SimSun',serif" font-size="130" fill="#faf3e6">山色</text>
+  <g transform="translate(376,84)">
+    <rect width="54" height="54" rx="6" fill="#b3452a"/>
+    <text x="27" y="38" font-family="'Songti SC','SimSun',serif" font-size="26" fill="#faf3e6" text-anchor="middle">茶</text>
+  </g>
+  <text x="70" y="226" font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" letter-spacing="6" fill="#f5d7b8">SHAN SE TEA · 品牌视觉升级 2025</text>
+  <g font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif" fill="#f9ead2" font-size="13.5">
+    <text x="530" y="500">定制粗宋字体 · 橙绿对撞色</text>
+    <text x="530" y="524">包装与门店导视一套延展</text>
+  </g>
+  <g>
+    <ellipse cx="268" cy="562" rx="66" ry="10" fill="#3c1608" opacity=".45"/>
+    <rect x="228" y="392" width="80" height="164" rx="14" fill="url(#bottle)"/>
+    <rect x="252" y="376" width="32" height="22" rx="5" fill="#143744"/>
+    <rect x="240" y="404" width="12" height="140" rx="6" fill="#ffffff" opacity=".16"/>
+    <text x="268" y="486" font-family="'Songti SC','SimSun',serif" font-size="24" fill="#faf3e6" text-anchor="middle">山</text>
+    <ellipse cx="432" cy="566" rx="60" ry="10" fill="#3c1608" opacity=".45"/>
+    <rect x="394" y="416" width="76" height="146" rx="14" fill="url(#bottle2)"/>
+    <rect x="416" y="400" width="32" height="22" rx="5" fill="#1e4a36"/>
+    <rect x="404" y="428" width="11" height="122" rx="6" fill="#ffffff" opacity=".16"/>
+    <text x="432" y="500" font-family="'Songti SC','SimSun',serif" font-size="24" fill="#faf3e6" text-anchor="middle">色</text>
+  </g>
+  <text x="66" y="572" font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#f5d7b8" opacity=".65">主视觉 KV · 码页集演示样例 · 示意作品</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="纸上共生青年设计展主视觉">
+  <defs>
+    <radialGradient id="orb" cx=".38" cy=".32" r=".9">
+      <stop offset="0" stop-color="#ffd489"/><stop offset=".55" stop-color="#ef9f27"/><stop offset="1" stop-color="#a35a0d"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx=".38" cy=".32" r=".9">
+      <stop offset="0" stop-color="#dfe8f2"/><stop offset=".55" stop-color="#9fb6cc"/><stop offset="1" stop-color="#4e6377"/>
+    </radialGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0V46" fill="none" stroke="#2a3c52" stroke-width=".6"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="#141f2e"/>
+  <rect width="800" height="600" fill="url(#grid)" opacity=".5"/>
+  <circle cx="565" cy="205" r="112" fill="url(#orb)"/>
+  <ellipse cx="530" cy="160" rx="34" ry="20" fill="#ffffff" opacity=".3"/>
+  <circle cx="688" cy="330" r="64" fill="url(#orb2)" opacity=".92"/>
+  <ellipse cx="666" cy="306" rx="18" ry="11" fill="#ffffff" opacity=".35"/>
+  <text x="66" y="176" font-family="'Songti SC','SimSun',serif" font-size="98" fill="#f5efe3">纸上共生</text>
+  <text x="70" y="224" font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif" font-size="17" letter-spacing="8" fill="#9fb6cc">青年设计邀请展 · 主视觉</text>
+  <rect x="70" y="248" width="132" height="3" fill="#ef9f27"/>
+  <g font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif" fill="#8296ab" font-size="14">
+    <text x="70" y="316">概念「纸的两面」：</text>
+    <text x="70" y="342">悬置圆形是纸的受光与背光，</text>
+    <text x="70" y="368">深底承托所有参展工艺作品。</text>
+  </g>
+  <g font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="70" y="470" font-size="24" font-weight="500" fill="#f5efe3" font-family="'Songti SC','SimSun',serif">2026.10.18 — 10.25</text>
+    <text x="70" y="502" font-size="13" fill="#8296ab">临江美术馆 2 号厅 · 免费预约入场</text>
+    <rect x="440" y="452" width="230" height="42" rx="21" fill="none" stroke="#ef9f27" stroke-opacity=".7"/>
+    <text x="555" y="479" font-size="13" fill="#ef9f27" text-anchor="middle">票券 / 导视 / 物料延展 40+ 件</text>
+  </g>
+  <text x="66" y="566" font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#8296ab" opacity=".6">展览主视觉 · 码页集演示样例 · 示意作品</text>
+</svg>

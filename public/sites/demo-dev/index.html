@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="陈晓 · 前端应届生网页简历样例：项目经历按项目-角色-结果结构化展示">
+<title>陈晓 · 前端开发 · 2026 届</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="glow" aria-hidden="true"></div>
+
+<header class="top">
+  <a class="logo" href="#top"><span class="dot"></span>chenxiao.dev</a>
+  <nav>
+    <a href="#work">项目</a>
+    <a href="#exp">经历</a>
+    <a href="#edu">教育</a>
+    <a href="#contact" class="cta">联系我</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <p class="prompt">~/chenxiao $ whoami<span class="caret" aria-hidden="true"></span></p>
+    <h1>陈晓<span class="en" aria-hidden="true">CHEN XIAO</span></h1>
+    <p class="lead">前端应届生，求职 Web 前端开发岗。我把大学四年的代码经历按<strong>「项目 · 角色 · 结果」</strong>重新整理——目的只有一个：让你在 15 秒内看懂我能做什么。</p>
+    <ul class="stats" role="list">
+      <li><strong>3</strong><span>完整项目</span></li>
+      <li><strong>1</strong><span>电商实习</span></li>
+      <li><strong>4.2s→1.8s</strong><span>首屏优化</span></li>
+      <li><strong>12</strong><span>沉淀组件</span></li>
+    </ul>
+  </section>
+
+  <section class="section" id="work">
+    <h2><i aria-hidden="true"></i>代表项目</h2>
+
+    <article class="project">
+      <div class="shot">
+        <img src="assets/project-dashboard.svg" alt="运营数据大屏界面示意图">
+      </div>
+      <div class="info">
+        <p class="num">01</p>
+        <h3>运营数据大屏</h3>
+        <p class="meta">独立开发 · 2024.10 — 2024.12 · 校级项目一等奖</p>
+        <ul class="list">
+          <li>基于 <em>ECharts</em> 实现订单、流量、库存三类指标实时看板，WebSocket 推送刷新。</li>
+          <li>4K 大屏与笔记本两套分辨率自适应栅格，一次开发两端展示。</li>
+        </ul>
+        <p class="result">结果：直接用于学院迎新指挥现场，替代原有人工播报。</p>
+        <p class="stack"><span>ECharts</span><span>WebSocket</span><span>CSS Grid</span></p>
+      </div>
+    </article>
+
+    <article class="project flip">
+      <div class="shot">
+        <img src="assets/project-market.svg" alt="校园二手交易平台界面示意图">
+      </div>
+      <div class="info">
+        <p class="num">02</p>
+        <h3>校园二手集市</h3>
+        <p class="meta">前端负责人（3 人团队） · 2025.03 — 2025.06</p>
+        <ul class="list">
+          <li>React + Vite 完成商品流、求购板、私信三大页面，课程设计转化为<strong>真实使用</strong>。</li>
+          <li>图片懒加载 + 骨架屏方案，弱网可交互时间提前 60%。</li>
+        </ul>
+        <p class="result">结果：上线首周全校注册 600+ 人，仍在被学弟学妹使用。</p>
+        <p class="stack"><span>React</span><span>Vite</span><span>Zustand</span></p>
+      </div>
+    </article>
+  </section>
+
+  <section class="section" id="exp">
+    <h2><i aria-hidden="true"></i>实习经历</h2>
+    <div class="term">
+      <div class="term-bar" aria-hidden="true"><b></b><b></b><b></b><span>internship.log</span></div>
+      <div class="term-body">
+        <p><span class="green">➜</span> <b>杭州云仓电商 · 前端开发实习生</b> <span class="dim">2025.07 — 2025.12 · 商家中台前端组</span></p>
+        <p class="line"><span class="dim">$</span> 独立负责「订单管理」「售后处理」等 3 个模块迭代，覆盖约 <em>4000 家</em>商家日常使用</p>
+        <p class="line"><span class="dim">$</span> 推动列表页虚拟滚动改造，首屏 <em>4.2s → 1.8s</em>，被组内采纳为通用方案</p>
+        <p class="line"><span class="dim">$</span> 封装 12 个业务组件（表格 / 上传 / 级联筛选）沉淀进团队组件库</p>
+      </div>
+    </div>
+
+    <div class="skills">
+      <div class="skill"><span>JavaScript · ES6+</span><i style="--w:88%"></i></div>
+      <div class="skill"><span>React 生态</span><i style="--w:82%"></i></div>
+      <div class="skill"><span>CSS / 响应式</span><i style="--w:90%"></i></div>
+      <div class="skill"><span>Node / MySQL</span><i style="--w:60%"></i></div>
+    </div>
+  </section>
+
+  <section class="section" id="edu">
+    <h2><i aria-hidden="true"></i>教育背景</h2>
+    <div class="edu-card">
+      <h3>江城理工大学 · 计算机科学与技术 · 本科</h3>
+      <p class="meta">2022.09 — 2026.06（应届）</p>
+      <ul class="list">
+        <li>主修：数据结构、Web 开发、数据库系统、软件工程。</li>
+        <li>荣誉：校级项目一等奖（2024）、蓝桥杯省赛二等奖（2025）。</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2><i aria-hidden="true"></i>联系我</h2>
+    <p class="prompt">$ contact --now</p>
+    <div class="contact-row">
+      <a href="mailto:chenxiao.demo@example.com">chenxiao.demo@example.com</a>
+      <span>138-0000-0000（样例占位）</span>
+      <span>杭州 · 可 2026 年 3 月实习转正</span>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>陈晓 · 前端应届生网页简历</p>
+  <p class="fineprint">本页为码页集演示样例 · 人物信息虚构 · 由码页集定制</p>
+</footer>
+</body>
+</html>
